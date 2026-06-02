@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 269,
+    "build": 261,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -28,7 +28,35 @@
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
-    "platformSpecificAssets": {},
+    "platformSpecificAssets": {
+      "android-icon-144": "",
+      "android-icon-192": "",
+      "android-icon-36": "",
+      "android-icon-48": "",
+      "android-icon-72": "",
+      "android-icon-96": "",
+      "android-windowSplashScreenAnimatedIcon": "",
+      "desktop-icon-512": "",
+      "ios-icon-100": "",
+      "ios-icon-1024": "",
+      "ios-icon-114": "",
+      "ios-icon-120": "",
+      "ios-icon-144": "",
+      "ios-icon-152": "",
+      "ios-icon-167": "",
+      "ios-icon-180": "",
+      "ios-icon-20": "",
+      "ios-icon-29": "",
+      "ios-icon-40": "",
+      "ios-icon-50": "",
+      "ios-icon-57": "",
+      "ios-icon-58": "",
+      "ios-icon-60": "",
+      "ios-icon-72": "",
+      "ios-icon-76": "",
+      "ios-icon-80": "",
+      "ios-icon-87": ""
+    },
     "loadingScreen": {
       "backgroundColor": 0,
       "backgroundFadeInDuration": 0.2,
@@ -52,7 +80,9 @@
     "authorIds": [],
     "authorUsernames": [],
     "categories": [],
-    "playableDevices": [],
+    "playableDevices": [
+      "mobile"
+    ],
     "extensionProperties": [],
     "platforms": [
       {
@@ -873,6 +903,68 @@
         "name": "Move",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/Room(Loop) - piano - drone.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sound/Room(Loop) - piano - drone.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Square White Slider Border.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/324e5f522f6242e9f93090e75ddc38427c3a6c42e8236dbf0ed541bd85cf7221_Square White Slider Border.png",
+          "name": "Square White Slider Border.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Fill Bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Fill Bar.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/47bc684198cd25b3ec74b0e72c2e2c7abb1b6736bd9f4b78a943c663e83118bf_Square White Slider Fill Bar.png",
+          "name": "Square White Slider Fill Bar.png"
+        }
+      },
+      {
+        "file": "assets/Square White Slider Thumb.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Square White Slider Thumb.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Settings UI/Slider/pixel art/848f861767e7ce4581dba9e122ee7bafeaca57987655cebe1f78ab31d1300f0f_Square White Slider Thumb.png",
+          "name": "Square White Slider Thumb.png"
+        }
+      },
+      {
+        "file": "assets/player/0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/player/npc01_spritesheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\npc01_spritesheet.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1196,6 +1288,33 @@
       },
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Audio"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -1257,7 +1376,7 @@
               },
               "parameters": [
                 "",
-                "\"Authors\"",
+                "\"Options\"",
                 ""
               ]
             }
@@ -1411,6 +1530,1050 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
+      "mangledName": "Options",
+      "name": "Options",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.4448515998886649,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1262,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Background",
+          "persistentUuid": "32fb33ee-5ff9-4c84-b290-ad2d68689208",
+          "width": 2315,
+          "x": -205,
+          "y": -90,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Titulo",
+          "persistentUuid": "4c826b44-be87-4cf4-9c80-ed7f3c1994dd",
+          "width": 365,
+          "x": 819,
+          "y": 64,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ButtonBack",
+          "persistentUuid": "4847570e-7ae7-4498-8eec-259d99a13143",
+          "width": 384,
+          "x": 832,
+          "y": 896,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Background",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/BackgroundAuthors.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1416,
+                            "y": 0
+                          },
+                          {
+                            "x": 1416,
+                            "y": 664
+                          },
+                          {
+                            "x": 0,
+                            "y": 664
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Titulo",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Options",
+            "opacity": 255,
+            "fontSize": 90,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "mononoki-Regular.ttf",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "ButtonBack",
+          "persistentUuid": "20a2598c-e2f8-4cc6-8634-8332692cc485",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Floating Out Button Dark Blue",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0,
+            "LabelText": "Back"
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "FloatingOutButtonDarkBlue",
+          "persistentUuid": "ef483210-dcd2-4489-9994-bc2c22afa3fb",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Floating Out Button Dark Blue",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0,
+            "LabelText": "Button"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Background"
+          },
+          {
+            "objectName": "ButtonBack"
+          },
+          {
+            "objectName": "FloatingOutButtonDarkBlue"
+          },
+          {
+            "objectName": "Titulo"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Audio"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ButtonBack",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Authors",
+      "name": "Authors",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.5800155239904861,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1088,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundAuthors",
+          "persistentUuid": "b2eb0415-f81f-4d3d-af2a-041d542bb361",
+          "width": 2272,
+          "x": 0,
+          "y": 0,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AuthorJulio",
+          "persistentUuid": "ef7d0486-99c9-44c7-9561-0e4e9d6a05f3",
+          "width": 256,
+          "x": 224,
+          "y": 160,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 256,
+          "keepRatio": true,
+          "layer": "",
+          "name": "AuthorFelipe",
+          "persistentUuid": "7d1bf2ef-2033-4f6a-9064-338b97c0937d",
+          "width": 256,
+          "x": 224,
+          "y": 576,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GitJulio",
+          "persistentUuid": "36314c61-92f3-4614-8fdb-eb7dc873db7e",
+          "width": 0,
+          "x": 544,
+          "y": 344,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GitFelipe",
+          "persistentUuid": "9bfc2302-b60c-49f3-823b-6d00167b67ce",
+          "width": 149,
+          "x": 544,
+          "y": 768,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "IconGitHub",
+          "persistentUuid": "a93a1b67-5e22-4ee9-aae0-d5879a042439",
+          "width": 32,
+          "x": 512,
+          "y": 768,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "IconGitHub",
+          "persistentUuid": "073c228e-0b30-4421-8446-396b27b76707",
+          "width": 32,
+          "x": 512,
+          "y": 352,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "JulioMartins",
+          "persistentUuid": "4f7f421b-5fe5-4a5f-aa7f-a05fe44190cf",
+          "width": 256,
+          "x": 512,
+          "y": 288,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FelipeAlves",
+          "persistentUuid": "d0449129-2d8d-49ac-83cc-586d136de05f",
+          "width": 224,
+          "x": 512,
+          "y": 704,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ButtonBack",
+          "persistentUuid": "9aca77da-9ec1-4f1f-a05d-7bb665d0d516",
+          "width": 0,
+          "x": 1760,
+          "y": 960,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BackgroundAuthors",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/BackgroundAuthors.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 3840,
+                            "y": 0
+                          },
+                          {
+                            "x": 3840,
+                            "y": 2160
+                          },
+                          {
+                            "x": 0,
+                            "y": 2160
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AuthorJulio",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/a.jpg",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 400,
+                            "y": 0
+                          },
+                          {
+                            "x": 400,
+                            "y": 400
+                          },
+                          {
+                            "x": 0,
+                            "y": 400
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "AuthorFelipe",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/b.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 460,
+                            "y": 0
+                          },
+                          {
+                            "x": 460,
+                            "y": 460
+                          },
+                          {
+                            "x": 0,
+                            "y": 460
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "GitJulio",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "@devjuliomartins",
+            "opacity": 255,
+            "fontSize": 25,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "assets/mononoki-Regular.ttf",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "GitFelipe",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "@FelipeS04",
+            "opacity": 255,
+            "fontSize": 25,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "assets/mononoki-Regular.ttf",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "IconGitHub",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "github2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 100,
+                            "y": 100
+                          },
+                          {
+                            "x": 1400,
+                            "y": 100
+                          },
+                          {
+                            "x": 1400,
+                            "y": 1366
+                          },
+                          {
+                            "x": 100,
+                            "y": 1366
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "JulioMartins",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Julio Martins",
+            "opacity": 255,
+            "fontSize": 35,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "FelipeAlves",
+          "type": "BBText::BBText",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Felipe Alves",
+            "opacity": 255,
+            "fontSize": 35,
+            "visible": true,
+            "color": "255;255;255",
+            "fontFamily": "Arial",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "ButtonBack",
+          "persistentUuid": "3e5e8755-1375-409f-81bc-669bf4dadf08",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Floating Out Button Dark Blue",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0,
+            "LabelText": "Back"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "BackgroundAuthors"
+          },
+          {
+            "objectName": "ButtonBack"
+          },
+          {
+            "objectName": "AuthorJulio"
+          },
+          {
+            "objectName": "AuthorFelipe"
+          },
+          {
+            "objectName": "GitJulio"
+          },
+          {
+            "objectName": "JulioMartins"
+          },
+          {
+            "objectName": "FelipeAlves"
+          },
+          {
+            "objectName": "GitFelipe"
+          },
+          {
+            "objectName": "IconGitHub"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "Audio"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ButtonBack",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
       "mangledName": "Forest",
       "name": "Forest",
       "r": 247,
@@ -1430,7 +2593,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5995738389111125,
+        "zoomFactor": 0.6406912462476535,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1738,7 +2901,6 @@
           "effects": [],
           "behaviors": [
             {
-              "isFolded": true,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 60,
@@ -3509,6 +4671,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "floor_2",
+          "persistentUuid": "49ca13d1-a46e-4cfc-8d59-d62839c37ccb",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3747,692 +4910,6 @@
         {
           "name": "StayOnScreen",
           "type": "StayOnScreen::StayOnScreen"
-        }
-      ]
-    },
-    {
-      "b": 255,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Authors",
-      "name": "Authors",
-      "r": 247,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 249,
-      "uiSettings": {
-        "grid": true,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridDepth": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridOffsetZ": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.5800155239904861,
-        "windowMask": false,
-        "selectedLayer": "",
-        "gameEditorMode": "instances-editor"
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1088,
-          "keepRatio": true,
-          "layer": "",
-          "name": "BackgroundAuthors",
-          "persistentUuid": "b2eb0415-f81f-4d3d-af2a-041d542bb361",
-          "width": 2272,
-          "x": 0,
-          "y": 0,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 256,
-          "keepRatio": true,
-          "layer": "",
-          "name": "AuthorJulio",
-          "persistentUuid": "ef7d0486-99c9-44c7-9561-0e4e9d6a05f3",
-          "width": 256,
-          "x": 224,
-          "y": 160,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 256,
-          "keepRatio": true,
-          "layer": "",
-          "name": "AuthorFelipe",
-          "persistentUuid": "7d1bf2ef-2033-4f6a-9064-338b97c0937d",
-          "width": 256,
-          "x": 224,
-          "y": 576,
-          "zOrder": 6,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GitJulio",
-          "persistentUuid": "36314c61-92f3-4614-8fdb-eb7dc873db7e",
-          "width": 0,
-          "x": 544,
-          "y": 344,
-          "zOrder": 7,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "GitFelipe",
-          "persistentUuid": "9bfc2302-b60c-49f3-823b-6d00167b67ce",
-          "width": 149,
-          "x": 544,
-          "y": 768,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "IconGitHub",
-          "persistentUuid": "a93a1b67-5e22-4ee9-aae0-d5879a042439",
-          "width": 32,
-          "x": 512,
-          "y": 768,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 32,
-          "keepRatio": true,
-          "layer": "",
-          "name": "IconGitHub",
-          "persistentUuid": "073c228e-0b30-4421-8446-396b27b76707",
-          "width": 32,
-          "x": 512,
-          "y": 352,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "JulioMartins",
-          "persistentUuid": "4f7f421b-5fe5-4a5f-aa7f-a05fe44190cf",
-          "width": 256,
-          "x": 512,
-          "y": 288,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "FelipeAlves",
-          "persistentUuid": "d0449129-2d8d-49ac-83cc-586d136de05f",
-          "width": 224,
-          "x": 512,
-          "y": 704,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "ButtonBack",
-          "persistentUuid": "9aca77da-9ec1-4f1f-a05d-7bb665d0d516",
-          "width": 0,
-          "x": 1760,
-          "y": 960,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "BackgroundAuthors",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/BackgroundAuthors.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 3840,
-                            "y": 0
-                          },
-                          {
-                            "x": 3840,
-                            "y": 2160
-                          },
-                          {
-                            "x": 0,
-                            "y": 2160
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "AuthorJulio",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/a.jpg",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 400,
-                            "y": 0
-                          },
-                          {
-                            "x": 400,
-                            "y": 400
-                          },
-                          {
-                            "x": 0,
-                            "y": 400
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "AuthorFelipe",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/b.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 0
-                          },
-                          {
-                            "x": 460,
-                            "y": 0
-                          },
-                          {
-                            "x": 460,
-                            "y": 460
-                          },
-                          {
-                            "x": 0,
-                            "y": 460
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "GitJulio",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "@devjuliomartins",
-            "opacity": 255,
-            "fontSize": 25,
-            "visible": true,
-            "color": "255;255;255",
-            "fontFamily": "assets/mononoki-Regular.ttf",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "GitFelipe",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "@FelipeS04",
-            "opacity": 255,
-            "fontSize": 25,
-            "visible": true,
-            "color": "255;255;255",
-            "fontFamily": "assets/mononoki-Regular.ttf",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "IconGitHub",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "github2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 100,
-                            "y": 100
-                          },
-                          {
-                            "x": 1400,
-                            "y": 100
-                          },
-                          {
-                            "x": 1400,
-                            "y": 1366
-                          },
-                          {
-                            "x": 100,
-                            "y": 1366
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "assetStoreId": "",
-          "name": "JulioMartins",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Julio Martins",
-            "opacity": 255,
-            "fontSize": 35,
-            "visible": true,
-            "color": "255;255;255",
-            "fontFamily": "Arial",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "FelipeAlves",
-          "type": "BBText::BBText",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "text": "Felipe Alves",
-            "opacity": 255,
-            "fontSize": 35,
-            "visible": true,
-            "color": "255;255;255",
-            "fontFamily": "Arial",
-            "align": "left",
-            "verticalTextAlignment": "top"
-          }
-        },
-        {
-          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
-          "name": "ButtonBack",
-          "persistentUuid": "3e5e8755-1375-409f-81bc-669bf4dadf08",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variant": "Floating Out Button Dark Blue",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 4,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0,
-            "LabelText": "Back"
-          }
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "BackgroundAuthors"
-          },
-          {
-            "objectName": "ButtonBack"
-          },
-          {
-            "objectName": "AuthorJulio"
-          },
-          {
-            "objectName": "AuthorFelipe"
-          },
-          {
-            "objectName": "GitJulio"
-          },
-          {
-            "objectName": "JulioMartins"
-          },
-          {
-            "objectName": "FelipeAlves"
-          },
-          {
-            "objectName": "GitFelipe"
-          },
-          {
-            "objectName": "IconGitHub"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-              },
-              "parameters": [
-                "ButtonBack",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Menu\"",
-                ""
-              ]
-            }
-          ]
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera2DPlaneMaxDrawingDistance": 5000,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "cameraType": "",
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Ambient Hemisphere Light",
-              "doubleParameters": {
-                "elevation": 40,
-                "intensity": 0.33,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "groundColor": "127;127;127",
-                "skyColor": "255;255;255",
-                "top": "Z+"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "Scene3D::DirectionalLight",
-              "name": "3D Sun Light",
-              "doubleParameters": {
-                "distanceFromCamera": 1500,
-                "elevation": 40,
-                "frustumSize": 4000,
-                "intensity": 0.75,
-                "minimumShadowBias": 0,
-                "rotation": 300
-              },
-              "stringParameters": {
-                "color": "255;255;255",
-                "shadowQuality": "medium",
-                "top": "Z+"
-              },
-              "booleanParameters": {
-                "isCastingShadow": true
-              }
-            }
-          ]
-        }
-      ],
-      "behaviorsSharedData": [
-        {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
-        },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
         }
       ]
     }
@@ -5098,7 +5575,7 @@
                   },
                   "parameters": [
                     "",
-                    "4",
+                    "5",
                     "",
                     ""
                   ]
@@ -5271,7 +5748,35 @@
     {
       "associatedLayout": "Menu",
       "name": "Audio",
-      "events": []
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "assets/sound/Room(Loop) - piano - drone.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets/sound/Room(Loop) - piano - drone.mp3",
+                "yes",
+                "1",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "eventsFunctionsExtensions": [
@@ -5337,23 +5842,12 @@
           "objectGroups": []
         }
       ],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "functionName": "IsInGameEdition"
-          }
-        ]
-      },
       "eventsBasedBehaviors": [
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -6448,41 +6942,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "functionName": "onDeActivate"
-              },
-              {
-                "functionName": "ResetState"
-              },
-              {
-                "functionName": "IsIdle"
-              },
-              {
-                "functionName": "IsClicked"
-              },
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "IsFocused"
-              },
-              {
-                "functionName": "IsPressed"
-              },
-              {
-                "functionName": "IsPressedOutside"
-              },
-              {
-                "functionName": "TouchId"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -6577,11 +7036,8 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -7013,20 +7469,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "SetIsHovered"
-              },
-              {
-                "functionName": "Color"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -7106,11 +7548,8 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
-          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -7476,20 +7915,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "SetIsHovered"
-              },
-              {
-                "functionName": "Color"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -7568,12 +7993,9 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
-          "helpPath": "",
-          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
-          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -9136,56 +9558,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "onCreated"
-              },
-              {
-                "functionName": "onHotReloading"
-              },
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "functionName": "IsIdle"
-              },
-              {
-                "functionName": "IsClicked"
-              },
-              {
-                "functionName": "IsHovered"
-              },
-              {
-                "functionName": "IsFocused"
-              },
-              {
-                "functionName": "IsPressed"
-              },
-              {
-                "functionName": "SetLabelText"
-              },
-              {
-                "functionName": "SetLabelTextOp"
-              },
-              {
-                "functionName": "LabelText"
-              },
-              {
-                "functionName": "Activate"
-              },
-              {
-                "functionName": "IsActivated"
-              },
-              {
-                "functionName": "LabelOffset"
-              },
-              {
-                "functionName": "SetLabelOffset"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -10978,18 +11350,12 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT"
-      },
       "eventsBasedBehaviors": [
         {
           "description": "Move objects on a straight line.",
           "fullName": "Linear movement",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "LinearMovement",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -11193,31 +11559,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "folderName": "Linear movement",
-                "children": [
-                  {
-                    "functionName": "SpeedX"
-                  },
-                  {
-                    "functionName": "SetSpeedX"
-                  },
-                  {
-                    "functionName": "SpeedY"
-                  },
-                  {
-                    "functionName": "SetSpeedY"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -11249,11 +11590,8 @@
         {
           "description": "Move objects ahead according to their angle.",
           "fullName": "Linear movement by angle",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "LinearMovementByAngle",
           "objectType": "",
-          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -11376,25 +11714,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "folderName": "Linear movement by angle configuration",
-                "children": [
-                  {
-                    "functionName": "Speed"
-                  },
-                  {
-                    "functionName": "SetSpeed"
-                  }
-                ]
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "200",
@@ -11409,536 +11728,6 @@
             "children": [
               {
                 "propertyName": "Speed"
-              }
-            ]
-          }
-        }
-      ],
-      "eventsBasedObjects": []
-    },
-    {
-      "author": "@4ian",
-      "category": "Movement",
-      "dimension": "2D",
-      "extensionNamespace": "",
-      "fullName": "Stay On Screen (2D)",
-      "gdevelopVersion": ">=5.5.222",
-      "helpPath": "",
-      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLW1vbml0b3Itc2NyZWVuc2hvdCIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik05LDZINVYxMEg3VjhIOU0xOSwxMEgxN1YxMkgxNVYxNEgxOU0yMSwxNkgzVjRIMjFNMjEsMkgzQzEuODksMiAxLDIuODkgMSw0VjE2QTIsMiAwIDAsMCAzLDE4SDEwVjIwSDhWMjJIMTZWMjBIMTRWMThIMjFBMiwyIDAgMCwwIDIzLDE2VjRDMjMsMi44OSAyMi4xLDIgMjEsMiIgLz48L3N2Zz4=",
-      "name": "StayOnScreen",
-      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/monitor-screenshot.svg",
-      "shortDescription": "Constrain object position to remain within the camera viewport boundaries.",
-      "version": "1.1.0",
-      "description": [
-        "Force the object to stay visible on the screen by setting back its 2D position (X and Y coordinates) inside the viewport of the camera.",
-        "",
-        "The shoot'em up example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://space-shooter))."
-      ],
-      "origin": {
-        "identifier": "StayOnScreen",
-        "name": "gdevelop-extension-store"
-      },
-      "tags": [
-        "positioning",
-        "camera",
-        "screen"
-      ],
-      "authorIds": [
-        "wWP8BSlAW0UP4NeaHa2LcmmDzmH2",
-        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92",
-        "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
-      ],
-      "dependencies": [],
-      "globalVariables": [],
-      "sceneVariables": [],
-      "eventsFunctions": [],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT"
-      },
-      "eventsBasedBehaviors": [
-        {
-          "description": "Force the object to stay visible on the screen by setting back its 2D position inside the viewport of the camera.",
-          "fullName": "Stay on Screen",
-          "helpPath": "",
-          "iconUrl": "",
-          "name": "StayOnScreen",
-          "objectType": "",
-          "previewIconUrl": "",
-          "eventsFunctions": [
-            {
-              "fullName": "",
-              "functionType": "Action",
-              "name": "doStepPostEvents",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "MettreX"
-                      },
-                      "parameters": [
-                        "Object",
-                        "+",
-                        "max(0, CameraBorderLeft(Object.Layer()) + MarginLeft - Object.BoundingBoxLeft())\n"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreX"
-                      },
-                      "parameters": [
-                        "Object",
-                        "+",
-                        "min(0, CameraBorderRight(Object.Layer()) - MarginRight - Object.BoundingBoxRight())\n"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreY"
-                      },
-                      "parameters": [
-                        "Object",
-                        "+",
-                        "max(0, CameraBorderTop(Object.Layer()) + MarginTop - Object.BoundingBoxTop())\n"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "MettreY"
-                      },
-                      "parameters": [
-                        "Object",
-                        "+",
-                        "min(0, CameraBorderBottom(Object.Layer()) - MarginBottom - Object.BoundingBoxBottom())\n"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the top margin (in pixels) to leave between the object and the screen border.",
-              "fullName": "Screen top margin",
-              "functionType": "ExpressionAndCondition",
-              "group": "Stay on Screen configuration",
-              "name": "MarginTop",
-              "sentence": "the top margin",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "MarginTop"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "MarginTop",
-              "group": "Stay on Screen configuration",
-              "name": "SetMarginTop",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "MarginTop",
-                        "=",
-                        "Value"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the bottom margin (in pixels) to leave between the object and the screen border.",
-              "fullName": "Screen bottom margin",
-              "functionType": "ExpressionAndCondition",
-              "group": "Stay on Screen configuration",
-              "name": "MarginBottom",
-              "sentence": "the bottom margin",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "MarginBottom"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "MarginBottom",
-              "group": "Stay on Screen configuration",
-              "name": "SetMarginBottom",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "MarginBottom",
-                        "=",
-                        "Value"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the left margin (in pixels) to leave between the object and the screen border.",
-              "fullName": "Screen left margin",
-              "functionType": "ExpressionAndCondition",
-              "group": "Stay on Screen configuration",
-              "name": "MarginLeft",
-              "sentence": "the left margin",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "MarginLeft"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "MarginLeft",
-              "group": "Stay on Screen configuration",
-              "name": "SetMarginLeft",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "MarginLeft",
-                        "=",
-                        "Value"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "description": "the right margin (in pixels) to leave between the object and the screen border.",
-              "fullName": "Screen right margin",
-              "functionType": "ExpressionAndCondition",
-              "group": "Stay on Screen configuration",
-              "name": "MarginRight",
-              "sentence": "the right margin",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetReturnNumber"
-                      },
-                      "parameters": [
-                        "MarginRight"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "expressionType": {
-                "type": "expression"
-              },
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            },
-            {
-              "fullName": "",
-              "functionType": "ActionWithOperator",
-              "getterName": "MarginRight",
-              "group": "Stay on Screen configuration",
-              "name": "SetMarginRight",
-              "sentence": "",
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "MarginRight",
-                        "=",
-                        "Value"
-                      ]
-                    }
-                  ]
-                }
-              ],
-              "parameters": [
-                {
-                  "description": "Object",
-                  "name": "Object",
-                  "type": "object"
-                },
-                {
-                  "description": "Behavior",
-                  "name": "Behavior",
-                  "supplementaryInformation": "StayOnScreen::StayOnScreen",
-                  "type": "behavior"
-                }
-              ],
-              "objectGroups": []
-            }
-          ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPostEvents"
-              },
-              {
-                "folderName": "Stay on Screen configuration",
-                "children": [
-                  {
-                    "functionName": "MarginTop"
-                  },
-                  {
-                    "functionName": "SetMarginTop"
-                  },
-                  {
-                    "functionName": "MarginBottom"
-                  },
-                  {
-                    "functionName": "SetMarginBottom"
-                  },
-                  {
-                    "functionName": "MarginLeft"
-                  },
-                  {
-                    "functionName": "SetMarginLeft"
-                  },
-                  {
-                    "functionName": "MarginRight"
-                  },
-                  {
-                    "functionName": "SetMarginRight"
-                  }
-                ]
-              }
-            ]
-          },
-          "propertyDescriptors": [
-            {
-              "value": "0",
-              "type": "Number",
-              "unit": "Pixel",
-              "label": "Top margin",
-              "name": "MarginTop"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "unit": "Pixel",
-              "label": "Bottom margin",
-              "name": "MarginBottom"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "unit": "Pixel",
-              "label": "Left margin",
-              "name": "MarginLeft"
-            },
-            {
-              "value": "0",
-              "type": "Number",
-              "unit": "Pixel",
-              "label": "Right margin",
-              "name": "MarginRight"
-            }
-          ],
-          "propertiesFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "propertyName": "MarginTop"
-              },
-              {
-                "propertyName": "MarginBottom"
-              },
-              {
-                "propertyName": "MarginLeft"
-              },
-              {
-                "propertyName": "MarginRight"
               }
             ]
           }
@@ -11989,18 +11778,12 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
-      "eventsFunctionsFolderStructure": {
-        "folderName": "__ROOT"
-      },
       "eventsBasedBehaviors": [
         {
           "description": "Smoothly scroll to follow an object.",
           "fullName": "Smooth Camera",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "SmoothCamera",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -16399,141 +16182,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "onCreated"
-              },
-              {
-                "functionName": "doStepPreEvents"
-              },
-              {
-                "functionName": "MoveCameraCloser"
-              },
-              {
-                "functionName": "DoMoveCameraCloser"
-              },
-              {
-                "functionName": "WaitAndCatchUp"
-              },
-              {
-                "functionName": "DrawDebug"
-              },
-              {
-                "folderName": "Camera configuration",
-                "children": [
-                  {
-                    "functionName": "SetFollowOnX"
-                  },
-                  {
-                    "functionName": "SetFollowOnY"
-                  },
-                  {
-                    "functionName": "SetFollowFreeAreaRight"
-                  },
-                  {
-                    "functionName": "SetFollowFreeAreaLeft"
-                  },
-                  {
-                    "functionName": "SetFollowFreeAreaTop"
-                  },
-                  {
-                    "functionName": "SetFollowFreeAreaBottom"
-                  },
-                  {
-                    "functionName": "SetLeftwardSpeedMax"
-                  },
-                  {
-                    "functionName": "SetRightwardSpeedMax"
-                  },
-                  {
-                    "functionName": "SetUpwardSpeedMax"
-                  },
-                  {
-                    "functionName": "SetDownwardSpeedMax"
-                  },
-                  {
-                    "functionName": "SetLeftwardSpeed"
-                  },
-                  {
-                    "functionName": "SetRightwardSpeed"
-                  },
-                  {
-                    "functionName": "SetDownwardSpeed"
-                  },
-                  {
-                    "functionName": "SetUpwardSpeed"
-                  },
-                  {
-                    "functionName": "OffsetX"
-                  },
-                  {
-                    "functionName": "SetOffsetXOp"
-                  },
-                  {
-                    "functionName": "SetOffsetX"
-                  },
-                  {
-                    "functionName": "OffsetY"
-                  },
-                  {
-                    "functionName": "SetOffsetYOp"
-                  },
-                  {
-                    "functionName": "SetOffsetY"
-                  },
-                  {
-                    "functionName": "SetForecastTime"
-                  },
-                  {
-                    "functionName": "SetCameraDelay"
-                  }
-                ]
-              },
-              {
-                "folderName": "Private",
-                "children": [
-                  {
-                    "functionName": "FreeAreaLeft"
-                  },
-                  {
-                    "functionName": "FreeAreaRight"
-                  },
-                  {
-                    "functionName": "FreeAreaBottom"
-                  },
-                  {
-                    "functionName": "FreeAreaTop"
-                  },
-                  {
-                    "functionName": "UpdateDelayedPosition"
-                  },
-                  {
-                    "functionName": "AddForecastHistoryPosition"
-                  },
-                  {
-                    "functionName": "UpdateForecastedPosition"
-                  },
-                  {
-                    "functionName": "ProjectHistoryEnds"
-                  },
-                  {
-                    "functionName": "ForecastTimeRatio"
-                  }
-                ]
-              },
-              {
-                "functionName": "IsDelayed"
-              },
-              {
-                "functionName": "CurrentDelay"
-              },
-              {
-                "functionName": "IsWaiting"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "0.9",
@@ -17069,11 +16717,8 @@
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
           "fullName": "Smooth platformer camera",
-          "helpPath": "",
-          "iconUrl": "",
           "name": "SmoothPlatformerCamera",
           "objectType": "",
-          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -17291,14 +16936,6 @@
               "objectGroups": []
             }
           ],
-          "eventsFunctionsFolderStructure": {
-            "folderName": "__ROOT",
-            "children": [
-              {
-                "functionName": "doStepPreEvents"
-              }
-            ]
-          },
           "propertyDescriptors": [
             {
               "value": "",
