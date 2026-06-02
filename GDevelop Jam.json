@@ -697,6 +697,158 @@
         "name": "assets/player/-3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Pet/Idle_0.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/Idle_0.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/Idle_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/Idle_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/Idle_1.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/Idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/Idle_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/Idle_2.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/Idle_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_0.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_0.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_1.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_2.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_2.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_3.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_4.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_5.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_6.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_7.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_7.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_8.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_8.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/sleep_9.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Pet/sleep_9.png\",\"extension\":\".png\"}",
+        "name": "assets/Pet/sleep_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/move_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Pet/move_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/move_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Pet/move_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/move_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Pet/move_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/move_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Pet/move_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Pet/move_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Pet/move_4.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1228,7 +1380,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8926462115230284,
+        "zoomFactor": 0.6846283916654076,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1350,6 +1502,22 @@
           "x": -608,
           "y": 1056,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Pet",
+          "persistentUuid": "b70dcb42-8e9d-4a04-b0c9-4fb217a8199c",
+          "width": 0,
+          "x": 339,
+          "y": 946,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2232,6 +2400,906 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Pet",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": true,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/Idle_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sleep",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/sleep_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Pet/move_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2254,6 +3322,9 @@
           },
           {
             "objectName": "Player"
+          },
+          {
+            "objectName": "Pet"
           },
           {
             "objectName": "floor"
@@ -3393,6 +4464,158 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "name": "Pet",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Pet",
+                    ">",
+                    "Player.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceTowardObject"
+                      },
+                      "parameters": [
+                        "Pet",
+                        "Player",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Pet",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "<",
+                    "Player.CenterX()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceTowardObject"
+                      },
+                      "parameters": [
+                        "Pet",
+                        "Player",
+                        "100",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "OpacityCapability::OpacityBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Pet",
+                        "Opacity",
+                        "=",
+                        "255"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Pet",
+                    "50",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ClearForces"
+                  },
+                  "parameters": [
+                    "Pet"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
           "name": "Animação de Movimento",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -3469,6 +4692,94 @@
                     "Animation",
                     "=",
                     "\"Run\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Pet"
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::CurrentSpeed"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "PlatformerObject",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsOnFloor"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::CurrentSpeed"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "PlatformerObject",
+                    "!=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "Animation",
+                    "=",
+                    "\"Move\""
                   ]
                 }
               ]
