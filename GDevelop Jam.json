@@ -849,6 +849,22 @@
         "name": "assets/Pet/move_4.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Layer_0001_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Layer_0001_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Layer_0000_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Layer_0000_9.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1369,7 +1385,7 @@
       "title": "",
       "v": 249,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -1379,8 +1395,8 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6846283916654076,
+        "snap": true,
+        "zoomFactor": 0.491387754532939,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1390,23 +1406,6 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 64,
-          "keepRatio": true,
-          "layer": "",
-          "name": "floor",
-          "persistentUuid": "a14e6e14-058d-4ccc-b788-d39dafa1faa0",
-          "width": 3264,
-          "x": -1024,
-          "y": 955,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -1414,9 +1413,9 @@
           "name": "Player",
           "persistentUuid": "8863809a-ee1b-4d0b-a790-d9aab71b29a2",
           "width": 0,
-          "x": 405,
-          "y": 929,
-          "zOrder": 3,
+          "x": 480,
+          "y": 943,
+          "zOrder": 17,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1433,7 +1432,7 @@
           "width": 3488,
           "x": -896,
           "y": 288,
-          "zOrder": 1,
+          "zOrder": -4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1517,7 +1516,177 @@
           "width": 0,
           "x": 339,
           "y": 946,
-          "zOrder": 8,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_1",
+          "persistentUuid": "2f8bf84a-b936-4f62-83b1-b763fe7abc7f",
+          "width": 0,
+          "x": -384,
+          "y": 263,
+          "zOrder": -3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_2",
+          "persistentUuid": "e6991029-a237-4174-8eb4-a4cb00380822",
+          "width": 0,
+          "x": -384,
+          "y": 256,
+          "zOrder": -2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_1",
+          "persistentUuid": "2706f28b-0450-4084-9867-638c8d08da90",
+          "width": 0,
+          "x": 800,
+          "y": 263,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_1",
+          "persistentUuid": "93bc9306-9d48-4b41-b3d4-9f69f7980121",
+          "width": 0,
+          "x": 1728,
+          "y": 263,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_1",
+          "persistentUuid": "4b6b7b6b-bda0-4a9e-9a36-d50391f2465b",
+          "width": 0,
+          "x": -128,
+          "y": 263,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_1",
+          "persistentUuid": "efbba5da-a4ea-4f98-bf2d-e30cd23802fb",
+          "width": 0,
+          "x": -1056,
+          "y": 263,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_2",
+          "persistentUuid": "6aa120ea-32d1-41c7-a6f5-0837d96e2b05",
+          "width": 0,
+          "x": 1728,
+          "y": 256,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_2",
+          "persistentUuid": "cc5fda3c-4513-44f3-8024-f835bee03df2",
+          "width": 0,
+          "x": 800,
+          "y": 256,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_2",
+          "persistentUuid": "51ea14e6-c843-4de5-bd7e-142ef4aa3424",
+          "width": 0,
+          "x": -128,
+          "y": 256,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "locked": true,
+          "name": "floor_2",
+          "persistentUuid": "38321dd9-c6cc-4b70-aebf-b5f11a4046cc",
+          "width": 0,
+          "x": -1056,
+          "y": 256,
+          "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1535,21 +1704,21 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 60,
+              "canGrabWithoutMoving": false,
+              "deceleration": 1500,
               "gravity": 1500,
-              "ignoreDefaultControls": true,
+              "ignoreDefaultControls": false,
               "isFolded": true,
               "jumpSpeed": 250,
               "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 1500,
+              "maxSpeed": 40,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
-              "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
-              "canGrabWithoutMoving": true,
-              "deceleration": 1500,
-              "ladderClimbingSpeed": 150,
-              "maxSpeed": 250,
               "slopeMaxAngle": 60,
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
@@ -1557,6 +1726,7 @@
               "yGrabOffset": 0
             },
             {
+              "isFolded": true,
               "name": "SmoothCamera",
               "type": "SmoothCamera::SmoothCamera",
               "LeftwardSpeed": 0.9,
@@ -1737,7 +1907,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -2023,76 +2193,6 @@
                           {
                             "x": 9,
                             "y": 48
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "floor",
-          "persistentUuid": "645df315-4c3b-4c9c-bb49-184e24cb70bb",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "canBeGrabbed": false,
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
-          "animations": [
-            {
-              "name": "NewSprite",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": false,
-                        "name": "centre",
-                        "x": 33,
-                        "y": 4
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 56
-                          },
-                          {
-                            "x": 56,
-                            "y": 56
-                          },
-                          {
-                            "x": 56,
-                            "y": 64
-                          },
-                          {
-                            "x": 0,
-                            "y": 64
                           }
                         ]
                       ]
@@ -2969,7 +3069,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -3300,6 +3400,134 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "floor_1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Layer_0001_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 730
+                          },
+                          {
+                            "x": 928,
+                            "y": 730
+                          },
+                          {
+                            "x": 928,
+                            "y": 793
+                          },
+                          {
+                            "x": 0,
+                            "y": 793
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "floor_2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Layer_0000_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 716
+                          },
+                          {
+                            "x": 928,
+                            "y": 716
+                          },
+                          {
+                            "x": 928,
+                            "y": 793
+                          },
+                          {
+                            "x": 0,
+                            "y": 793
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3327,7 +3555,10 @@
             "objectName": "Pet"
           },
           {
-            "objectName": "floor"
+            "objectName": "floor_1"
+          },
+          {
+            "objectName": "floor_2"
           }
         ]
       },
@@ -4492,6 +4723,17 @@
                     "Flippable",
                     "yes"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "Animation",
+                    "=",
+                    "\"Move\""
+                  ]
                 }
               ],
               "events": [
@@ -4506,7 +4748,7 @@
                       "parameters": [
                         "Pet",
                         "Player",
-                        "100",
+                        "30",
                         ""
                       ]
                     },
@@ -4549,6 +4791,17 @@
                     "Flippable",
                     "no"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "Animation",
+                    "=",
+                    "\"Move\""
+                  ]
                 }
               ],
               "events": [
@@ -4563,7 +4816,7 @@
                       "parameters": [
                         "Pet",
                         "Player",
-                        "100",
+                        "30",
                         ""
                       ]
                     },
@@ -4592,7 +4845,7 @@
                   "parameters": [
                     "Player",
                     "Pet",
-                    "50",
+                    "60",
                     ""
                   ]
                 }
@@ -4604,6 +4857,17 @@
                   },
                   "parameters": [
                     "Pet"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Pet",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
                   ]
                 }
               ]
@@ -4695,94 +4959,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "Pet"
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Pet",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::CurrentSpeed"
-                  },
-                  "parameters": [
-                    "Pet",
-                    "PlatformerObject",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Pet",
-                    "Animation",
-                    "=",
-                    "\"Idle\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "PlatformBehavior::IsOnFloor"
-                  },
-                  "parameters": [
-                    "Pet",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlatformBehavior::CurrentSpeed"
-                  },
-                  "parameters": [
-                    "Pet",
-                    "PlatformerObject",
-                    "!=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                  },
-                  "parameters": [
-                    "Pet",
-                    "Animation",
-                    "=",
-                    "\"Move\""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -4812,14 +4988,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "floor"
-              ]
-            },
             {
               "type": {
                 "value": "Hide"
@@ -5015,7 +5183,7 @@
                       "parameters": [
                         "ForestBackground",
                         "+",
-                        "0.6"
+                        "0.4"
                       ]
                     }
                   ]
@@ -5051,7 +5219,7 @@
                       "parameters": [
                         "ForestBackground",
                         "+",
-                        "-0.6"
+                        "-0.4"
                       ]
                     }
                   ]
