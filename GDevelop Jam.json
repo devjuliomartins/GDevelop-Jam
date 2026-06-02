@@ -1286,6 +1286,32 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "ButtonAuthors",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Authors\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -5241,6 +5267,11 @@
           "parameters": []
         }
       ]
+    },
+    {
+      "associatedLayout": "Menu",
+      "name": "Audio",
+      "events": []
     }
   ],
   "eventsFunctionsExtensions": [
