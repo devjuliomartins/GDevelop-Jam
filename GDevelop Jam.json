@@ -525,7 +525,7 @@
       {
         "file": "assets/player/2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/player/2.png\",\"extension\":\".png\"}",
         "name": "assets/player/2.png",
         "smoothed": true,
         "userAdded": false
@@ -533,7 +533,7 @@
       {
         "file": "assets/player/3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/player/3.png\",\"extension\":\".png\"}",
         "name": "assets/player/3.png",
         "smoothed": true,
         "userAdded": false
@@ -541,7 +541,7 @@
       {
         "file": "assets/player/4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/player/4.png\",\"extension\":\".png\"}",
         "name": "assets/player/4.png",
         "smoothed": true,
         "userAdded": false
@@ -549,7 +549,7 @@
       {
         "file": "assets/player/5.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/player/5.png\",\"extension\":\".png\"}",
         "name": "assets/player/5.png",
         "smoothed": true,
         "userAdded": false
@@ -557,7 +557,7 @@
       {
         "file": "assets/player/6.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/player/6.png\",\"extension\":\".png\"}",
         "name": "assets/player/6.png",
         "smoothed": true,
         "userAdded": false
@@ -565,7 +565,7 @@
       {
         "file": "assets/player/7.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/player/7.png\",\"extension\":\".png\"}",
         "name": "assets/player/7.png",
         "smoothed": true,
         "userAdded": false
@@ -573,7 +573,7 @@
       {
         "file": "assets/player/8.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/player/8.png\",\"extension\":\".png\"}",
         "name": "assets/player/8.png",
         "smoothed": true,
         "userAdded": false
@@ -813,7 +813,7 @@
       {
         "file": "assets/Pet/move_0.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Pet/move_0.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_0.png",
         "smoothed": true,
         "userAdded": false
@@ -821,7 +821,7 @@
       {
         "file": "assets/Pet/move_1.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Pet/move_1.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_1.png",
         "smoothed": true,
         "userAdded": false
@@ -829,7 +829,7 @@
       {
         "file": "assets/Pet/move_2.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Pet/move_2.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_2.png",
         "smoothed": true,
         "userAdded": false
@@ -837,7 +837,7 @@
       {
         "file": "assets/Pet/move_3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Pet/move_3.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_3.png",
         "smoothed": true,
         "userAdded": false
@@ -845,7 +845,7 @@
       {
         "file": "assets/Pet/move_4.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/Pet/move_4.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_4.png",
         "smoothed": true,
         "userAdded": false
@@ -863,6 +863,14 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Layer_0000_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Move.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Move",
         "smoothed": true,
         "userAdded": false
       }
@@ -1396,7 +1404,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.491387754532939,
+        "zoomFactor": 0.5800155239904903,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -1907,47 +1915,12 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/player/5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 1
-                          },
-                          {
-                            "x": 23,
-                            "y": 1
-                          },
-                          {
-                            "x": 23,
-                            "y": 48
-                          },
-                          {
-                            "x": 9,
-                            "y": 48
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/player/1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3069,11 +3042,48 @@
               "directions": [
                 {
                   "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.2,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Pet/move_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 17
+                          },
+                          {
+                            "x": 50,
+                            "y": 42
+                          },
+                          {
+                            "x": 10,
+                            "y": 42
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Move",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3290,42 +3300,6 @@
                     {
                       "hasCustomCollisionMask": true,
                       "image": "assets/Pet/move_2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 10,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 17
-                          },
-                          {
-                            "x": 50,
-                            "y": 42
-                          },
-                          {
-                            "x": 10,
-                            "y": 42
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/Pet/move_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
