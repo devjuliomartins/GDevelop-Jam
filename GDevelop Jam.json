@@ -965,6 +965,16 @@
         "name": "assets\\player\\npc01_spritesheet.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/Transfer(loop) - drone - spaces.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\sound\\Transfer(loop) - drone - spaces.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -4798,8 +4808,41 @@
               "parameters": [
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
+          "actions": [
+            {
+              "type": {
+                "value": "PreloadMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\Transfer(loop) - drone - spaces.mp3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\sound\\Transfer(loop) - drone - spaces.mp3",
+                "yes",
+                "30",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
           "actions": []
         }
       ],
@@ -5696,7 +5739,7 @@
                       "parameters": [
                         "ForestBackground",
                         "+",
-                        "0.4"
+                        "0.05"
                       ]
                     }
                   ]
@@ -5732,7 +5775,7 @@
                       "parameters": [
                         "ForestBackground",
                         "+",
-                        "-0.4"
+                        "-0.05"
                       ]
                     }
                   ]
