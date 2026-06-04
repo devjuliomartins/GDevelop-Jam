@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 271,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -976,6 +976,22 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/IconGitHub.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/IconGitHub.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Left_limit.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Left_limit.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1911,7 +1927,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5800155239904861,
+        "zoomFactor": 0.5427920802473275,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2325,7 +2341,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "github2.png",
+                      "image": "assets/IconGitHub.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2604,7 +2620,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.6406912462476535,
+        "zoomFactor": 0.4303403802207692,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3452,7 +3468,7 @@
           ],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "Left_limit",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -3462,7 +3478,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
+                      "image": "assets/Left_limit.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
