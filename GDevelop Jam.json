@@ -1,13 +1,13 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 261,
+    "build": 271,
     "major": 5,
     "minor": 6,
     "revision": 0
   },
   "properties": {
-    "adaptGameResolutionAtRuntime": true,
+    "adaptGameResolutionAtRuntime": false,
     "antialiasingMode": "MSAA",
     "antialisingEnabledOnMobile": false,
     "folderProject": false,
@@ -18,6 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
     "name": "GDevelop Jam",
     "description": "",
@@ -98,7 +99,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Image.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://project-resources.gdevelop.io/68799ce6-63d5-4524-b5b8-463776a70b7e/resources/111700678884f47a4c7389c98faa371314b199d38a61c25561ca78e9fd854089-Image.png",
@@ -110,7 +111,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Background.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://project-resources.gdevelop.io/68799ce6-63d5-4524-b5b8-463776a70b7e/resources/ac41e62968bbc7fe6b46d4209d83f8d602d753863d176e7446a2d08d003713b3-Background.png",
@@ -122,7 +123,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Layer_0002_7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://project-resources.gdevelop.io/68799ce6-63d5-4524-b5b8-463776a70b7e/resources/78642c874fa48b689e9eb10260b4068603a07ded21ba9491be10707270ec4280-Layer_0002_7.png",
@@ -134,7 +135,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Layer_0002_7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -142,7 +143,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Layer_0000_9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://project-resources.gdevelop.io/68799ce6-63d5-4524-b5b8-463776a70b7e/resources/d57b42668c50e12b31d0456a08f3c5fc09070cf77cc914627bcb4995ed6bd3fa-Layer_0000_9.png",
@@ -154,7 +155,7 @@
         "kind": "image",
         "metadata": "",
         "name": "npc01_spritesheet.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://project-resources.gdevelop.io/68799ce6-63d5-4524-b5b8-463776a70b7e/resources/ca3aa13a24479cc26ab2ce72e5404f06e57a1472aeb6b54d08db1fd171dc575e-npc01_spritesheet.png",
@@ -166,7 +167,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "menu-background.jpg",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://project-resources.gdevelop.io/68799ce6-63d5-4524-b5b8-463776a70b7e/resources/fdab56aa7182272185be4bfc253524fe3ca8b30c8cd754f706d25e69b7992601-menu-background.jpg",
@@ -189,7 +190,7 @@
         "kind": "image",
         "metadata": "",
         "name": "639724707b26df0e0219264e5b2735bf.jpg",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://project-resources.gdevelop.io/68799ce6-63d5-4524-b5b8-463776a70b7e/resources/1086b23263ad329f9d52d4bddd8773acac7ad426af7817ad1af73e0240c74abf-639724707b26df0e0219264e5b2735bf.jpg",
@@ -201,7 +202,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Medieval Button Brown_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
@@ -213,7 +214,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Medieval Button Brown_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
@@ -225,7 +226,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Medieval Button Brown_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
@@ -248,7 +249,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Floating Out Button Dark Blue_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/2f8919c3cad70134ff1732dbaef5dd9babd0aed0240dd817c1db9e27aa6b205b_Floating Out Button Dark Blue_Hovered.png",
@@ -260,7 +261,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Floating Out Button Dark Blue_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d2cedf36d5812262daf2389108558a2ee0b40ca23da05f6200e1f0eee905ca11_Floating Out Button Dark Blue_Idle.png",
@@ -272,7 +273,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Floating Out Button Dark Blue_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d246e92fe474d2825e38af207a9926794d490bc052aef447688612f61ec48861_Floating Out Button Dark Blue_Pressed.png",
@@ -284,7 +285,7 @@
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/77717e5c1f84f3ba9a3dd6e314bc0bdc3233351c657e8f6df40b7f50e8911b2b_White Square Decorated Button_Hovered.png",
@@ -296,7 +297,7 @@
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c4444ea8d2cd97df3af29acc29f4928549ab31e18156a304a78f6d838ea9f152_White Square Decorated Button_Idle.png",
@@ -308,7 +309,7 @@
         "kind": "image",
         "metadata": "",
         "name": "White Square Decorated Button_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c3bdc36afb89e6dea691d9ca8c0a74f06fb3f37f910ae730f0654d5df7d10472_White Square Decorated Button_Pressed.png",
@@ -331,7 +332,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button With Metal Frame_Hovered.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/b22a9a1823c086427abcdbec14ef49d5a49e6999d8970476bdb7c022b62d8dcc_Red Button With Metal Frame_Hovered.png",
@@ -343,7 +344,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button With Metal Frame_Idle.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c89bb37a1b97b101b601ba39bce50d74964264704d0644735a08c0986e122294_Red Button With Metal Frame_Idle.png",
@@ -355,7 +356,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Red Button With Metal Frame_Pressed.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/ff00ce0a7031e00560a3844ca90fbf73a45c42c8f6659e018110fc8c45c9982e_Red Button With Metal Frame_Pressed.png",
@@ -437,7 +438,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Layer_0002_7.png.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -445,7 +446,7 @@
         "kind": "image",
         "metadata": "",
         "name": "BackgroundAuthors.jpg",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -453,7 +454,7 @@
         "kind": "image",
         "metadata": "",
         "name": "a.jpg",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -461,7 +462,7 @@
         "kind": "image",
         "metadata": "",
         "name": "b.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -469,7 +470,7 @@
         "kind": "image",
         "metadata": "",
         "name": "background.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -477,7 +478,7 @@
         "kind": "image",
         "metadata": "",
         "name": "github.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -493,7 +494,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/backgroundMenu.jpg",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -533,7 +534,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/8BitOperatorPlus8Regular_Edited.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -541,7 +542,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/player/npc01_spritesheet.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -549,7 +550,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/player/1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -557,7 +558,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/2.png\",\"extension\":\".png\"}",
         "name": "assets/player/2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -565,7 +566,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/3.png\",\"extension\":\".png\"}",
         "name": "assets/player/3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -573,7 +574,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/4.png\",\"extension\":\".png\"}",
         "name": "assets/player/4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -581,7 +582,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/5.png\",\"extension\":\".png\"}",
         "name": "assets/player/5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -589,7 +590,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/6.png\",\"extension\":\".png\"}",
         "name": "assets/player/6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -597,7 +598,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/7.png\",\"extension\":\".png\"}",
         "name": "assets/player/7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -605,7 +606,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/8.png\",\"extension\":\".png\"}",
         "name": "assets/player/8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -613,7 +614,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/player/chaoInvi.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -621,7 +622,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
         "name": "NewSprite",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -629,7 +630,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Background.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -637,7 +638,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/BackgroundAuthors.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -653,7 +654,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/b.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -701,7 +702,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/0.png\",\"extension\":\".png\"}",
         "name": "assets/player/0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -709,7 +710,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/player/-1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -717,7 +718,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/-2.png\",\"extension\":\".png\"}",
         "name": "assets/player/-2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -725,7 +726,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/player/-3.png\",\"extension\":\".png\"}",
         "name": "assets/player/-3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -733,7 +734,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/Idle_0.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/Idle_0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -741,7 +742,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/Idle_1.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/Idle_1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -749,7 +750,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/Idle_2.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/Idle_2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -757,7 +758,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_0.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -765,7 +766,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_1.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -773,7 +774,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_2.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -781,7 +782,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_3.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -789,7 +790,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_4.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -797,7 +798,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_5.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_5.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -805,7 +806,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_6.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_6.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -813,7 +814,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_7.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_7.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -821,7 +822,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_8.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -829,7 +830,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/sleep_9.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/sleep_9.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -837,7 +838,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -845,7 +846,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/move_0.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -853,7 +854,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/move_1.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -861,7 +862,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/move_2.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -869,7 +870,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/move_3.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -877,7 +878,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Pet/move_4.png\",\"extension\":\".png\"}",
         "name": "assets/Pet/move_4.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -885,7 +886,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Layer_0001_8.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -901,7 +902,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Move",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -955,7 +956,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\player\\0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -963,7 +964,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets\\player\\npc01_spritesheet.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -5885,12 +5886,23 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "IsInGameEdition"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "The finite state machine used internally by the button object.",
           "fullName": "Button finite state machine",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ButtonFSM",
           "objectType": "",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -6985,6 +6997,41 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "ResetState"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "IsPressedOutside"
+              },
+              {
+                "functionName": "TouchId"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "true",
@@ -7079,8 +7126,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "TextStyleState",
           "objectType": "TextObject::Text",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -7512,6 +7562,20 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "SetIsHovered"
+              },
+              {
+                "functionName": "Color"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -7591,8 +7655,11 @@
         {
           "description": "Change the text style when the button is hovered.",
           "fullName": "Hover bitmap text style",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "BitmapTextStyleState",
           "objectType": "BitmapText::BitmapTextObject",
+          "previewIconUrl": "",
           "private": true,
           "eventsFunctions": [
             {
@@ -7958,6 +8025,20 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "SetIsHovered"
+              },
+              {
+                "functionName": "Color"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -8036,9 +8117,12 @@
           "defaultName": "Button",
           "description": "Button with a label.",
           "fullName": "Labeled button",
+          "helpPath": "",
+          "iconUrl": "",
           "isInnerAreaFollowingParentSize": true,
           "isUsingLegacyInstancesRenderer": false,
           "name": "PanelSpriteButton",
+          "previewIconUrl": "",
           "objects": [
             {
               "assetStoreId": "",
@@ -9601,6 +9685,56 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "onHotReloading"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "IsIdle"
+              },
+              {
+                "functionName": "IsClicked"
+              },
+              {
+                "functionName": "IsHovered"
+              },
+              {
+                "functionName": "IsFocused"
+              },
+              {
+                "functionName": "IsPressed"
+              },
+              {
+                "functionName": "SetLabelText"
+              },
+              {
+                "functionName": "SetLabelTextOp"
+              },
+              {
+                "functionName": "LabelText"
+              },
+              {
+                "functionName": "Activate"
+              },
+              {
+                "functionName": "IsActivated"
+              },
+              {
+                "functionName": "LabelOffset"
+              },
+              {
+                "functionName": "SetLabelOffset"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -11393,12 +11527,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Move objects on a straight line.",
           "fullName": "Linear movement",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "LinearMovement",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -11602,6 +11742,31 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Linear movement",
+                "children": [
+                  {
+                    "functionName": "SpeedX"
+                  },
+                  {
+                    "functionName": "SetSpeedX"
+                  },
+                  {
+                    "functionName": "SpeedY"
+                  },
+                  {
+                    "functionName": "SetSpeedY"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -11633,8 +11798,11 @@
         {
           "description": "Move objects ahead according to their angle.",
           "fullName": "Linear movement by angle",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "LinearMovementByAngle",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -11757,6 +11925,25 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "folderName": "Linear movement by angle configuration",
+                "children": [
+                  {
+                    "functionName": "Speed"
+                  },
+                  {
+                    "functionName": "SetSpeed"
+                  }
+                ]
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "200",
@@ -11821,12 +12008,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Smoothly scroll to follow an object.",
           "fullName": "Smooth Camera",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "SmoothCamera",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -16225,6 +16418,141 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "MoveCameraCloser"
+              },
+              {
+                "functionName": "DoMoveCameraCloser"
+              },
+              {
+                "functionName": "WaitAndCatchUp"
+              },
+              {
+                "functionName": "DrawDebug"
+              },
+              {
+                "folderName": "Camera configuration",
+                "children": [
+                  {
+                    "functionName": "SetFollowOnX"
+                  },
+                  {
+                    "functionName": "SetFollowOnY"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaRight"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaLeft"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaTop"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaBottom"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeed"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeed"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeed"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeed"
+                  },
+                  {
+                    "functionName": "OffsetX"
+                  },
+                  {
+                    "functionName": "SetOffsetXOp"
+                  },
+                  {
+                    "functionName": "SetOffsetX"
+                  },
+                  {
+                    "functionName": "OffsetY"
+                  },
+                  {
+                    "functionName": "SetOffsetYOp"
+                  },
+                  {
+                    "functionName": "SetOffsetY"
+                  },
+                  {
+                    "functionName": "SetForecastTime"
+                  },
+                  {
+                    "functionName": "SetCameraDelay"
+                  }
+                ]
+              },
+              {
+                "folderName": "Private",
+                "children": [
+                  {
+                    "functionName": "FreeAreaLeft"
+                  },
+                  {
+                    "functionName": "FreeAreaRight"
+                  },
+                  {
+                    "functionName": "FreeAreaBottom"
+                  },
+                  {
+                    "functionName": "FreeAreaTop"
+                  },
+                  {
+                    "functionName": "UpdateDelayedPosition"
+                  },
+                  {
+                    "functionName": "AddForecastHistoryPosition"
+                  },
+                  {
+                    "functionName": "UpdateForecastedPosition"
+                  },
+                  {
+                    "functionName": "ProjectHistoryEnds"
+                  },
+                  {
+                    "functionName": "ForecastTimeRatio"
+                  }
+                ]
+              },
+              {
+                "functionName": "IsDelayed"
+              },
+              {
+                "functionName": "CurrentDelay"
+              },
+              {
+                "functionName": "IsWaiting"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.9",
@@ -16760,8 +17088,11 @@
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
           "fullName": "Smooth platformer camera",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "SmoothPlatformerCamera",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -16979,6 +17310,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
