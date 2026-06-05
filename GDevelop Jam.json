@@ -1048,6 +1048,166 @@
         "name": "NewSprite3",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Deer/0_MiniDeer.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Deer/0_MiniDeer.png\",\"extension\":\".png\"}",
+        "name": "assets/Deer/0_MiniDeer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deer/1_MiniDeer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Deer/1_MiniDeer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deer/2_MiniDeer.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Deer/2_MiniDeer.png\",\"extension\":\".png\"}",
+        "name": "assets/Deer/2_MiniDeer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deer/3_MiniDeer.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/Deer/3_MiniDeer.png\",\"extension\":\".png\"}",
+        "name": "assets/Deer/3_MiniDeer.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deer/MiniDeer_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Deer/MiniDeer_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deer/MiniDeer_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Deer/MiniDeer_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deer/MiniDeer_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Deer/MiniDeer_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Deer/MiniDeer_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/Deer/MiniDeer_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle3",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle5",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle10",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle11",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle12",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle13",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -5249,7 +5409,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 2.1142622880246367,
+        "zoomFactor": 0.4913877545329407,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5266,7 +5426,7 @@
           "layer": "",
           "name": "ForestBackground",
           "persistentUuid": "ac98ff43-4043-4f18-a601-aaa4db4b1708",
-          "width": 2592,
+          "width": 1920,
           "x": 0,
           "y": 288,
           "zOrder": -4,
@@ -5301,7 +5461,7 @@
           "name": "Right_limit",
           "persistentUuid": "4500926c-af81-4e97-a234-d49b57720758",
           "width": 64,
-          "x": 2080,
+          "x": 1920,
           "y": 480,
           "zOrder": 5,
           "numberProperties": [],
@@ -5317,7 +5477,7 @@
           "layer": "",
           "name": "Upper_limit",
           "persistentUuid": "930eb7f2-0087-4093-846a-309e63b14c8c",
-          "width": 2208,
+          "width": 2048,
           "x": -64,
           "y": 416,
           "zOrder": 6,
@@ -5334,7 +5494,7 @@
           "layer": "",
           "name": "Low_limit",
           "persistentUuid": "26c95f96-4b58-4eba-a5b0-aab497452630",
-          "width": 2208,
+          "width": 2048,
           "x": -64,
           "y": 1056,
           "zOrder": 7,
@@ -5360,13 +5520,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 793,
           "keepRatio": true,
           "layer": "",
           "name": "floor_1",
           "persistentUuid": "93bc9306-9d48-4b41-b3d4-9f69f7980121",
-          "width": 0,
+          "width": 320,
           "x": 1728,
           "y": 263,
           "zOrder": 11,
@@ -5392,13 +5553,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 793,
           "keepRatio": true,
           "layer": "",
           "name": "floor_2",
           "persistentUuid": "6aa120ea-32d1-41c7-a6f5-0837d96e2b05",
-          "width": 0,
+          "width": 288,
           "x": 1728,
           "y": 256,
           "zOrder": 21,
@@ -5518,6 +5680,23 @@
           "x": -32,
           "y": 928,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 100,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Deer",
+          "persistentUuid": "87f94773-4bbb-4d83-ade8-39e9d17c37e4",
+          "width": 100,
+          "x": 160,
+          "y": 896,
+          "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5951,6 +6130,318 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Deer",
+          "persistentUuid": "81b2b617-76ee-49fc-b01a-b596baeebc31",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/0_MiniDeer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/2_MiniDeer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/3_MiniDeer.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5976,6 +6467,9 @@
           },
           {
             "objectName": "floor_2"
+          },
+          {
+            "objectName": "Deer"
           }
         ]
       },
@@ -6082,6 +6576,95 @@
                     "",
                     "\"Forest\"",
                     ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Deer",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Deer",
+                    "140",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Deer",
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Deer",
+                    "Animation",
+                    "=",
+                    "\"Move\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Deer",
+                    "140",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ClearForces"
+                  },
+                  "parameters": [
+                    "Deer"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Deer",
+                    "Animation",
+                    "=",
+                    "\"Idle\""
                   ]
                 }
               ]
