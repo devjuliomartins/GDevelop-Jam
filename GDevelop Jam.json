@@ -4461,7 +4461,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0192755261489086,
+        "zoomFactor": 0.5250860067782638,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4492,6 +4492,7 @@
           "height": 718,
           "keepRatio": true,
           "layer": "",
+          "locked": true,
           "name": "ForestBackground",
           "persistentUuid": "ac98ff43-4043-4f18-a601-aaa4db4b1708",
           "width": 2464,
