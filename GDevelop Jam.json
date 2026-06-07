@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 270,
+    "build": 271,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -293,18 +293,6 @@
         }
       },
       {
-        "file": "assets/White Square Decorated Button_Idle.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "White Square Decorated Button_Idle.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c4444ea8d2cd97df3af29acc29f4928549ab31e18156a304a78f6d838ea9f152_White Square Decorated Button_Idle.png",
-          "name": "White Square Decorated Button_Idle.png"
-        }
-      },
-      {
         "file": "assets/White Square Decorated Button_Pressed.png",
         "kind": "image",
         "metadata": "",
@@ -314,6 +302,18 @@
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c3bdc36afb89e6dea691d9ca8c0a74f06fb3f37f910ae730f0654d5df7d10472_White Square Decorated Button_Pressed.png",
           "name": "White Square Decorated Button_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/White Square Decorated Button_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Square Decorated Button_Idle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/c4444ea8d2cd97df3af29acc29f4928549ab31e18156a304a78f6d838ea9f152_White Square Decorated Button_Idle.png",
+          "name": "White Square Decorated Button_Idle.png"
         }
       },
       {
@@ -486,7 +486,7 @@
         "kind": "image",
         "metadata": "",
         "name": "github2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -902,7 +902,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Move",
-        "smoothed": false,
+        "smoothed": true,
         "userAdded": false
       },
       {
@@ -998,7 +998,7 @@
         "kind": "image",
         "metadata": "",
         "name": "BackgroundForestInitial.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1006,7 +1006,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/House.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1014,7 +1014,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/BackgroundForestInitial.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1022,7 +1022,7 @@
         "kind": "image",
         "metadata": "",
         "name": "bush.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1030,7 +1030,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "bush",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1038,7 +1038,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/tree.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1046,7 +1046,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1054,7 +1054,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Deer/0_MiniDeer.png\",\"extension\":\".png\"}",
         "name": "assets/Deer/0_MiniDeer.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1062,7 +1062,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Deer/1_MiniDeer.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1070,7 +1070,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Deer/2_MiniDeer.png\",\"extension\":\".png\"}",
         "name": "assets/Deer/2_MiniDeer.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1078,7 +1078,7 @@
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/Deer/3_MiniDeer.png\",\"extension\":\".png\"}",
         "name": "assets/Deer/3_MiniDeer.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1086,7 +1086,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Deer/MiniDeer_0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1094,7 +1094,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Deer/MiniDeer_1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1102,7 +1102,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Deer/MiniDeer_2.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1110,7 +1110,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Deer/MiniDeer_3.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1118,7 +1118,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle2",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1126,7 +1126,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle3",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1134,7 +1134,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle4",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1142,7 +1142,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle5",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1150,7 +1150,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle6",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1158,7 +1158,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle7",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1166,7 +1166,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle8",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1174,7 +1174,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle9",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1182,7 +1182,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle10",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1190,7 +1190,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle11",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1198,7 +1198,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle12",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1206,7 +1206,90 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Idle13",
-        "smoothed": true,
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "Steps_carpet-001.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Steps_carpet-001.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Steps_carpet0.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Steps_carpet0.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite4.png\"}",
+        "name": "NewSprite4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/GDevelop/15c1797cbcb41c3a753b6bbb21cfa60284cfaf81c9891c3abf78a8e0e1cacf59_8BitOperatorPlus8Regular_Edited.png",
+          "name": "8BitOperatorPlus8Regular_Edited.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited2.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Bitmap texts/GDevelop/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
+          "name": "8BitOperatorPlus8Regular_Edited.fnt"
+        }
+      },
+      {
+        "file": "assets/Idle14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Idle16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Idle16",
+        "smoothed": false,
         "userAdded": false
       }
     ]
@@ -4338,7 +4421,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5610952083582137,
+        "zoomFactor": 1.1259024631361123,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4576,7 +4659,7 @@
           "persistentUuid": "0b255cf5-94f5-42d3-b458-029988a8dcf8",
           "width": 192,
           "x": 2240,
-          "y": 871,
+          "y": 867,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -4586,14 +4669,15 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
+          "flippedX": true,
           "height": 162,
           "keepRatio": true,
           "layer": "",
           "name": "Tree",
           "persistentUuid": "4209cab3-cff0-4f5a-b3a8-339de1962bf1",
           "width": 192,
-          "x": 2297,
-          "y": 864,
+          "x": 2304,
+          "y": 862,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -4612,6 +4696,56 @@
           "x": 2432,
           "y": 928,
           "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Placa1",
+          "persistentUuid": "e8894cf3-9280-4bfb-aebe-68c22aa1e292",
+          "width": 64,
+          "x": 2208,
+          "y": 928,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Placa2",
+          "persistentUuid": "d4248d45-9d05-49ea-931c-ac9847e7f843",
+          "width": 0,
+          "x": 704,
+          "y": 960,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "",
+          "name": "LendoTexto",
+          "persistentUuid": "09d55916-e366-4c5c-82c5-e7bc749db581",
+          "width": 239,
+          "x": 625,
+          "y": 928,
+          "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5046,6 +5180,150 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Placa1",
+          "persistentUuid": "39965f02-80e8-4211-989c-0cfb5673246d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 17
+                          },
+                          {
+                            "x": 53,
+                            "y": 17
+                          },
+                          {
+                            "x": 53,
+                            "y": 44
+                          },
+                          {
+                            "x": 11,
+                            "y": 44
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Placa2",
+          "persistentUuid": "120c35a6-caa4-49d6-8e16-7af2e6435a0b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 11,
+                            "y": 16
+                          },
+                          {
+                            "x": 53,
+                            "y": 16
+                          },
+                          {
+                            "x": 53,
+                            "y": 61
+                          },
+                          {
+                            "x": 11,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "LendoTexto",
+          "persistentUuid": "338565d8-d26f-4065-bdda-3aeb6728dbb2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Era uma vez uma floresta e nela tinha uma placa foda de fazer e sons de passos que ficam se repetindo nessa porra",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "left",
+            "verticalTextAlignment": "top"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -5071,6 +5349,15 @@
           },
           {
             "objectName": "House"
+          },
+          {
+            "objectName": "Placa1"
+          },
+          {
+            "objectName": "Placa2"
+          },
+          {
+            "objectName": "LendoTexto"
           }
         ]
       },
@@ -5231,6 +5518,114 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    ">",
+                    "0.4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "Steps_carpet0.ogg",
+                    "=1",
+                    "yes",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Placa2",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "LendoTexto"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Placa2",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "LendoTexto",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetXY"
+                  },
+                  "parameters": [
+                    "LendoTexto",
+                    "=",
+                    "625",
+                    "=",
+                    "928"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
@@ -5275,6 +5670,11 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -5384,6 +5784,10 @@
         {
           "name": "StayOnScreen",
           "type": "StayOnScreen::StayOnScreen"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     },
@@ -5409,7 +5813,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.640691246247655,
+        "zoomFactor": 1.978576051913043,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5697,6 +6101,23 @@
           "x": 160,
           "y": 896,
           "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "keepRatio": true,
+          "layer": "",
+          "name": "DeerNoir",
+          "persistentUuid": "cb356012-d095-403a-aeb6-5f371fb3474b",
+          "width": 96,
+          "x": 256,
+          "y": 896,
+          "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -6148,6 +6569,8 @@
           "effects": [],
           "behaviors": [
             {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
@@ -6158,10 +6581,8 @@
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 200,
-              "name": "Pathfinding",
               "rotateObject": true,
-              "smoothingMaxCellGap": 1,
-              "type": "PathfindingBehavior::PathfindingBehavior"
+              "smoothingMaxCellGap": 1
             },
             {
               "isFolded": true,
@@ -6465,6 +6886,341 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "DeerNoir",
+          "persistentUuid": "d3a28ab4-3bdd-459d-8842-5fc72ebb87b5",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "correr",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Pathfinding",
+              "type": "PathfindingBehavior::PathfindingBehavior",
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": 0,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 200,
+              "rotateObject": true,
+              "smoothingMaxCellGap": 1
+            },
+            {
+              "isFolded": true,
+              "name": "PlatformerObject",
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "acceleration": 1500,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 1500,
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 600,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 150,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 250,
+              "slopeMaxAngle": 60,
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Idle16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Move",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Deer/MiniDeer_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 7
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6493,6 +7249,9 @@
           },
           {
             "objectName": "Deer"
+          },
+          {
+            "objectName": "DeerNoir"
           }
         ]
       },
