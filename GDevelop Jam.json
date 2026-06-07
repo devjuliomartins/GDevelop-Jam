@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 271,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1291,6 +1291,40 @@
         "name": "Idle16",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/sound/Steps_carpet-020.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets/sound/Steps_carpet-020.ogg",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite8.png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -2132,7 +2166,13 @@
       "persistentUuid": "ff45e4dc-7605-4fe7-8ca3-187e641818bd",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "name": "Andando",
+          "type": "number",
+          "value": 0
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -4410,7 +4450,7 @@
       "title": "",
       "v": 249,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -4420,8 +4460,8 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 1.1259024631361123,
+        "snap": false,
+        "zoomFactor": 1.0192755261489086,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4438,9 +4478,9 @@
           "name": "Player",
           "persistentUuid": "8863809a-ee1b-4d0b-a790-d9aab71b29a2",
           "width": 0,
-          "x": 191,
-          "y": 960,
-          "zOrder": 20,
+          "x": 2016,
+          "y": 992,
+          "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4711,24 +4751,8 @@
           "persistentUuid": "e8894cf3-9280-4bfb-aebe-68c22aa1e292",
           "width": 64,
           "x": 2208,
-          "y": 928,
-          "zOrder": 24,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Placa2",
-          "persistentUuid": "d4248d45-9d05-49ea-931c-ac9847e7f843",
-          "width": 0,
-          "x": 704,
           "y": 960,
-          "zOrder": 25,
+          "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4740,12 +4764,96 @@
           "height": 44,
           "keepRatio": true,
           "layer": "",
-          "name": "LendoTexto",
+          "name": "PaperText",
           "persistentUuid": "09d55916-e366-4c5c-82c5-e7bc749db581",
           "width": 239,
-          "x": 625,
-          "y": 928,
+          "x": 529,
+          "y": 948,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 30,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Paper",
+          "persistentUuid": "8a5c75b3-7936-4c75-a188-d4af13a047b8",
+          "width": 30,
+          "x": 652,
+          "y": 1004,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 34,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlateText",
+          "persistentUuid": "ba552ab7-4611-4edd-9d81-73fdbf5dbf2a",
+          "width": 51,
+          "x": 2215,
+          "y": 968,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlateRestricted",
+          "persistentUuid": "d061b4e3-d2fd-4546-8d70-88c51d5e2627",
+          "width": 40,
+          "x": 2296,
+          "y": 992,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RestrictedText",
+          "persistentUuid": "e6705e6a-f979-419f-a9eb-148ec4c75c21",
+          "width": 0,
+          "x": 2268,
+          "y": 992,
+          "zOrder": 31,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 50,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PlateRestricted2",
+          "persistentUuid": "a1010f3f-325e-46f4-9481-0773ee0e0be5",
+          "width": 32,
+          "x": 2408,
+          "y": 1005,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5244,10 +5352,30 @@
           ]
         },
         {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "PaperText",
+          "persistentUuid": "338565d8-d26f-4065-bdda-3aeb6728dbb2",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Placa2",
-          "persistentUuid": "120c35a6-caa4-49d6-8e16-7af2e6435a0b",
+          "name": "Paper",
+          "persistentUuid": "06651104-2b72-45fb-ae3a-2ef00ea0ea11",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5265,7 +5393,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite5",
+                      "image": "NewSprite7",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5281,20 +5409,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 11,
-                            "y": 16
+                            "x": 15,
+                            "y": 19
                           },
                           {
                             "x": 53,
-                            "y": 16
+                            "y": 19
                           },
                           {
                             "x": 53,
-                            "y": 61
+                            "y": 48
                           },
                           {
-                            "x": 11,
-                            "y": 61
+                            "x": 15,
+                            "y": 48
                           }
                         ]
                       ]
@@ -5307,23 +5435,167 @@
         },
         {
           "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
-          "name": "LendoTexto",
-          "persistentUuid": "338565d8-d26f-4065-bdda-3aeb6728dbb2",
+          "name": "PlateText",
+          "persistentUuid": "607f5429-c037-45f5-ab35-c1adc6176803",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Era uma vez uma floresta e nela tinha uma placa foda de fazer e sons de passos que ficam se repetindo nessa porra",
+            "text": "\"Perigo!!\"",
             "opacity": 255,
             "scale": 0.5,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
             "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
-            "align": "left",
-            "verticalTextAlignment": "top"
+            "align": "center",
+            "verticalTextAlignment": "center"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PlateRestricted",
+          "persistentUuid": "11d5760c-be60-415c-9070-d7b05c5db0c6",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 28
+                          },
+                          {
+                            "x": 5,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "RestrictedText",
+          "persistentUuid": "5ab45012-ec0f-417e-b7d6-9f7238f8dd57",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"AREA RESTRITA\"",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "PlateRestricted2",
+          "persistentUuid": "1d2be29f-d597-4eae-a5bc-da8efc0c7984",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 3
+                          },
+                          {
+                            "x": 27,
+                            "y": 28
+                          },
+                          {
+                            "x": 5,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -5354,10 +5626,22 @@
             "objectName": "Placa1"
           },
           {
-            "objectName": "Placa2"
+            "objectName": "PaperText"
           },
           {
-            "objectName": "LendoTexto"
+            "objectName": "Paper"
+          },
+          {
+            "objectName": "PlateText"
+          },
+          {
+            "objectName": "PlateRestricted"
+          },
+          {
+            "objectName": "PlateRestricted2"
+          },
+          {
+            "objectName": "RestrictedText"
           }
         ]
       },
@@ -5518,114 +5802,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
-                  },
-                  "parameters": [
-                    "Player",
-                    "PlatformerObject"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TimeScale"
-                  },
-                  "parameters": [
-                    "",
-                    ">",
-                    "0.4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlaySoundOnChannel"
-                  },
-                  "parameters": [
-                    "",
-                    "Steps_carpet0.ogg",
-                    "=1",
-                    "yes",
-                    "",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Placa2",
-                    "",
-                    "",
-                    "no"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Hide"
-                  },
-                  "parameters": [
-                    "LendoTexto"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Placa2",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Show"
-                  },
-                  "parameters": [
-                    "LendoTexto",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetXY"
-                  },
-                  "parameters": [
-                    "LendoTexto",
-                    "=",
-                    "625",
-                    "=",
-                    "928"
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -5667,14 +5843,177 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Paper",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "PaperText",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Paper",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PaperText"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Placa1",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "PlateText",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Placa1",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PlateText"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlateRestricted",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "RestrictedText",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlateRestricted",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "RestrictedText"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -5813,7 +6152,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 1.978576051913043,
+        "zoomFactor": 0.7817486425451866,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -8175,6 +8514,117 @@
                     "Animation",
                     "=",
                     "\"Run\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Som ao Andar",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Andando",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicOnChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "assets/sound/Steps_carpet-020.ogg",
+                    "1",
+                    "yes",
+                    "5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Andando",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "PlatformBehavior::PlatformerObjectBehavior::IsMovingEvenALittle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Andando",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "StopMusicChannel"
+                  },
+                  "parameters": [
+                    "",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Andando",
+                    "=",
+                    "0"
                   ]
                 }
               ]
