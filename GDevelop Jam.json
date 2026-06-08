@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 271,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -4568,7 +4568,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9538618542089866,
+        "zoomFactor": 0.4913877545329537,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -6868,7 +6868,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5686691119148244,
+        "zoomFactor": 0.5427920802473453,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -7173,7 +7173,7 @@
           "width": 96,
           "x": 1811,
           "y": 916,
-          "zOrder": 28,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7325,6 +7325,23 @@
           "x": 1406,
           "y": 933,
           "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 837,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FadeIn",
+          "persistentUuid": "4bc8be2e-9588-44d3-a7fb-ab175b865661",
+          "width": 1035,
+          "x": 987,
+          "y": 283,
+          "zOrder": 36,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8823,6 +8840,17 @@
               "parameters": [
                 "Paper"
               ]
+            },
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "FadeIn",
+                "Opacity",
+                "=",
+                "0"
+              ]
             }
           ]
         },
@@ -9058,64 +9086,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Distance"
-                  },
-                  "parameters": [
-                    "Player",
-                    "DeerNoir",
-                    "150",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "15"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
-                  },
-                  "parameters": [
-                    "FadeIn",
-                    "Tween",
-                    "ToString(FadeIn.Opacity::Value())",
-                    "255",
-                    "\"easeInOutQuad\"",
-                    "2",
-                    "no"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Scene"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Final\"",
-                    ""
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -9346,6 +9316,79 @@
                   },
                   "parameters": [
                     "DialogoNoir3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "DialogoNoir3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "DeerNoir"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "FadeIn",
+                    "Tween",
+                    "ToString(FadeIn.Opacity::Value())",
+                    "255",
+                    "\"easeOutQuart\"",
+                    "4",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Final\"",
                     ""
                   ]
                 }
@@ -9621,22 +9664,6 @@
           "height": 0,
           "keepRatio": true,
           "layer": "",
-          "name": "Text3",
-          "persistentUuid": "ad736f40-5c94-4024-b4bd-5510f76b5b74",
-          "width": 0,
-          "x": 704,
-          "y": 716,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
           "name": "FinalText",
           "persistentUuid": "d57c48fa-1d0d-4edb-b139-cfe3189272de",
           "width": 0,
@@ -9659,6 +9686,23 @@
           "x": 864,
           "y": 896,
           "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 44,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text4",
+          "persistentUuid": "46b589ff-9cf4-4a50-8dc2-031d8bd9046a",
+          "width": 452,
+          "x": 732,
+          "y": 726,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
