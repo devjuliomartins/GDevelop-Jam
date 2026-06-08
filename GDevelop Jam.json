@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 271,
+    "build": 270,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1380,6 +1380,22 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "Move5",
         "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite9",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite10",
+        "smoothed": true,
         "userAdded": false
       }
     ]
@@ -4517,7 +4533,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5174985595891917,
+        "zoomFactor": 1.1638682658312272,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -4534,9 +4550,9 @@
           "name": "Player",
           "persistentUuid": "8863809a-ee1b-4d0b-a790-d9aab71b29a2",
           "width": 0,
-          "x": 220,
-          "y": 972,
-          "zOrder": 32,
+          "x": 184,
+          "y": 976,
+          "zOrder": 41,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4636,8 +4652,8 @@
           "name": "Pet",
           "persistentUuid": "b70dcb42-8e9d-4a04-b0c9-4fb217a8199c",
           "width": 0,
-          "x": 320,
-          "y": 960,
+          "x": 286,
+          "y": 976,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -4842,7 +4858,7 @@
           "persistentUuid": "8a5c75b3-7936-4c75-a188-d4af13a047b8",
           "width": 30,
           "x": 637,
-          "y": 1003,
+          "y": 1006,
           "zOrder": 27,
           "numberProperties": [],
           "stringProperties": [],
@@ -4858,8 +4874,8 @@
           "name": "PlateText",
           "persistentUuid": "ba552ab7-4611-4edd-9d81-73fdbf5dbf2a",
           "width": 51,
-          "x": 2215,
-          "y": 968,
+          "x": 2214,
+          "y": 955,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -4891,8 +4907,8 @@
           "name": "RestrictedText",
           "persistentUuid": "e6705e6a-f979-419f-a9eb-148ec4c75c21",
           "width": 0,
-          "x": 2268,
-          "y": 992,
+          "x": 2284,
+          "y": 971,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -4911,6 +4927,87 @@
           "x": 2408,
           "y": 1005,
           "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PaperText3",
+          "persistentUuid": "9b749b60-145c-4cc1-9a3e-933df942b3a3",
+          "width": 0,
+          "x": 1711,
+          "y": 977,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PaperText2",
+          "persistentUuid": "72945665-7b4a-4735-9122-fac721fcfea7",
+          "width": 0,
+          "x": 1246,
+          "y": 964,
+          "zOrder": 37,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 40,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bag",
+          "persistentUuid": "14db70bc-7939-4964-9c05-b455a7b98109",
+          "width": 40,
+          "x": 1293,
+          "y": 992,
+          "zOrder": 38,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Rock",
+          "persistentUuid": "9663ecd5-cd13-49cc-94db-50eaa93d9a20",
+          "width": 0,
+          "x": 1753,
+          "y": 993,
+          "zOrder": 39,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "cca5a389-f35d-4ed1-bfc7-baee79edbb2a",
+          "width": 0,
+          "x": 170,
+          "y": 935,
+          "zOrder": 40,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5417,7 +5514,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Voce nunca termina o que começa... porque sempre foge",
+            "text": "\"Eu deveria ter ido embora quando tive a chance.\"",
             "opacity": 255,
             "scale": 0.3,
             "fontSize": 20,
@@ -5499,9 +5596,9 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "\"Perigo!!\"",
+            "text": "\"PERIGO. NAO ENTRE!\"",
             "opacity": 255,
-            "scale": 0.5,
+            "scale": 0.3,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
@@ -5581,9 +5678,9 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "\"AREA RESTRITA\"",
+            "text": "\"AREA PERIGOSA!\"",
             "opacity": 255,
-            "scale": 0.5,
+            "scale": 0.3,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
@@ -5653,6 +5750,189 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "PaperText3",
+          "persistentUuid": "72570d4c-325a-44b9-9174-9af429b6e0d1",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"Talvez eu mereca viver sozinho.\"",
+            "opacity": 255,
+            "scale": 0.3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "PaperText2",
+          "persistentUuid": "aac18a6d-d2ef-457b-953f-3a5d848d0663",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"Sempre encontrei uma desculpa para desistir.\"",
+            "opacity": 255,
+            "scale": 0.3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bag",
+          "persistentUuid": "d1257cf0-a830-4371-8e18-99cf535ad60f",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 29
+                          },
+                          {
+                            "x": 47,
+                            "y": 29
+                          },
+                          {
+                            "x": 47,
+                            "y": 51
+                          },
+                          {
+                            "x": 17,
+                            "y": 51
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Rock",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 14
+                          },
+                          {
+                            "x": 31,
+                            "y": 14
+                          },
+                          {
+                            "x": 31,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "Text",
+          "persistentUuid": "81e85e64-67a3-4b34-a4f5-0b80da2f3e7a",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"Ha anos vivo sozinho nesta floresta.\"\n\n\"Mas algo me observa todas as noites.\"\n\n\"Hoje vou acabar com isso.\"",
+            "opacity": 255,
+            "scale": 0.5,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -5686,6 +5966,15 @@
             "objectName": "PaperText"
           },
           {
+            "objectName": "PaperText2"
+          },
+          {
+            "objectName": "PaperText3"
+          },
+          {
+            "objectName": "Bag"
+          },
+          {
             "objectName": "Paper"
           },
           {
@@ -5699,6 +5988,12 @@
           },
           {
             "objectName": "RestrictedText"
+          },
+          {
+            "objectName": "Rock"
+          },
+          {
+            "objectName": "Text"
           }
         ]
       },
@@ -5775,6 +6070,22 @@
               },
               "parameters": [
                 "floor_1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Paper"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NextMap"
               ]
             }
           ]
@@ -6068,9 +6379,184 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Bag",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "PaperText2",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Bag",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PaperText2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Rock",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "PaperText3",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Rock",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PaperText3"
+                  ]
+                }
+              ]
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "House",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "Text",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "House",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Text"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -6209,7 +6695,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.5174985595891806,
+        "zoomFactor": 1.9140341873313962,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -6395,7 +6881,7 @@
           "persistentUuid": "51ea14e6-c843-4de5-bd7e-142ef4aa3424",
           "width": 896,
           "x": -96,
-          "y": 263,
+          "y": 255,
           "zOrder": 25,
           "numberProperties": [],
           "stringProperties": [],
@@ -6512,8 +6998,8 @@
           "name": "DeerNoir",
           "persistentUuid": "cb356012-d095-403a-aeb6-5f371fb3474b",
           "width": 96,
-          "x": 533,
-          "y": 909,
+          "x": 1811,
+          "y": 916,
           "zOrder": 28,
           "numberProperties": [],
           "stringProperties": [],
@@ -6528,8 +7014,8 @@
           "layer": "",
           "name": "Paper",
           "persistentUuid": "7d2f5a2e-0ae4-4bf8-a5ea-cc55aa5b7a69",
-          "width": 32,
-          "x": 347,
+          "width": 79,
+          "x": 316,
           "y": 974,
           "zOrder": 29,
           "numberProperties": [],
@@ -6543,11 +7029,11 @@
           "height": 44,
           "keepRatio": true,
           "layer": "",
-          "name": "PlateText",
+          "name": "PaperText",
           "persistentUuid": "435348f2-1160-4ffa-a886-5e417e508e93",
           "width": 212,
-          "x": 264,
-          "y": 935,
+          "x": 266,
+          "y": 930,
           "zOrder": 30,
           "numberProperties": [],
           "stringProperties": [],
@@ -6563,8 +7049,8 @@
           "name": "DialogoNoir",
           "persistentUuid": "ec3686ca-b876-4ca5-a3a6-e093f62d0081",
           "width": 128,
-          "x": 507,
-          "y": 919,
+          "x": 1778,
+          "y": 923,
           "zOrder": 31,
           "numberProperties": [],
           "stringProperties": [],
@@ -6580,8 +7066,8 @@
           "name": "DialogoNoir2",
           "persistentUuid": "8de2ff69-36fd-42c6-9c10-aa8e155119f7",
           "width": 126,
-          "x": 506,
-          "y": 922,
+          "x": 1773,
+          "y": 924,
           "zOrder": 32,
           "numberProperties": [],
           "stringProperties": [],
@@ -6597,9 +7083,75 @@
           "name": "DialogoNoir3",
           "persistentUuid": "9ae81d31-959e-4fda-91e2-5895bf2fd193",
           "width": 121,
-          "x": 510,
-          "y": 919,
+          "x": 1780,
+          "y": 923,
           "zOrder": 33,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Paper",
+          "persistentUuid": "9a937a0c-7dd8-4ceb-8a65-06d9024c2aa7",
+          "width": 88,
+          "x": 828,
+          "y": 974,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 32,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Paper",
+          "persistentUuid": "6deeb13c-68a5-45be-873a-8b810a1e892c",
+          "width": 77,
+          "x": 1417,
+          "y": 969,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PaperText2",
+          "persistentUuid": "0d9c8e9a-408c-43e6-b545-6c9b8b48746a",
+          "width": 0,
+          "x": 823,
+          "y": 930,
+          "zOrder": 34,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "PaperText3",
+          "persistentUuid": "d6a2faf1-b698-4a5d-8aa4-172ef956db44",
+          "width": 0,
+          "x": 1406,
+          "y": 933,
+          "zOrder": 35,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7052,9 +7604,11 @@
           "effects": [],
           "behaviors": [
             {
+              "acceleration": 400,
+              "isFolded": true,
+              "maxSpeed": 10,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
-              "acceleration": 400,
               "allowDiagonals": true,
               "angleOffset": 0,
               "angularMaxSpeed": 180,
@@ -7063,14 +7617,10 @@
               "extraBorder": 0,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
-              "maxSpeed": 200,
               "rotateObject": true,
               "smoothingMaxCellGap": 1
             },
             {
-              "isFolded": true,
-              "name": "PlatformerObject",
-              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -7082,8 +7632,10 @@
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
               "maxFallingSpeed": 700,
-              "maxSpeed": 250,
+              "maxSpeed": 110,
+              "name": "PlatformerObject",
               "slopeMaxAngle": 60,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
               "useLegacyTrajectory": false,
               "useRepeatedJump": false,
               "xGrabTolerance": 10,
@@ -7770,14 +8322,14 @@
         },
         {
           "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
-          "name": "PlateText",
+          "name": "PaperText",
           "persistentUuid": "40b04a1c-3d4b-492c-b4ef-b5e8e49abece",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Quantas vezes mais vai se iludir?",
+            "text": "\"Voce nunca termina nada.\"",
             "opacity": 255,
             "scale": 0.3,
             "fontSize": 20,
@@ -7797,7 +8349,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Voce veio de tao longe... atravessando anos de silencio",
+            "text": "\"Eu sou cada sonho que voce abandonou.\"",
             "opacity": 255,
             "scale": 0.3,
             "fontSize": 20,
@@ -7817,7 +8369,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Mas continua correndo... como se a dor nao pudesse te alcancar",
+            "text": "\"Cada medo que voce alimentou.\"",
             "opacity": 255,
             "scale": 0.3,
             "fontSize": 20,
@@ -7837,7 +8389,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "Como sempre fez... desde o dia em que me perdeu",
+            "text": "\"Cada vez que desistiu antes de tentar.\"",
             "opacity": 255,
             "scale": 0.3,
             "fontSize": 20,
@@ -7850,16 +8402,36 @@
         },
         {
           "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
-          "name": "DialogoNoir4",
-          "persistentUuid": "f37c643b-6bd8-4852-9850-8b4b42326aa1",
+          "name": "PaperText3",
+          "persistentUuid": "27fa5976-e5f0-4334-9505-69b660464d13",
           "type": "BitmapText::BitmapTextObject",
           "variables": [],
           "effects": [],
           "behaviors": [],
           "content": {
-            "text": "",
+            "text": "\"Volte para casa.\"",
             "opacity": 255,
-            "scale": 0.5,
+            "scale": 0.3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "PaperText2",
+          "persistentUuid": "7b65f527-bb57-47bb-9a69-99f59bfc4ecc",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"Voce vai falhar novamente.\"",
+            "opacity": 255,
+            "scale": 0.3,
             "fontSize": 20,
             "tint": "255;255;255",
             "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
@@ -7876,7 +8448,13 @@
             "objectName": "ForestBackground"
           },
           {
-            "objectName": "PlateText"
+            "objectName": "PaperText"
+          },
+          {
+            "objectName": "PaperText2"
+          },
+          {
+            "objectName": "PaperText3"
           },
           {
             "objectName": "DialogoNoir"
@@ -7886,9 +8464,6 @@
           },
           {
             "objectName": "DialogoNoir3"
-          },
-          {
-            "objectName": "DialogoNoir4"
           },
           {
             "objectName": "Paper"
@@ -7985,6 +8560,22 @@
                 "30",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "NextMap"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Paper"
+              ]
             }
           ]
         },
@@ -7997,6 +8588,35 @@
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "NextMap",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Forest\"",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -8019,7 +8639,7 @@
                     "value": "Show"
                   },
                   "parameters": [
-                    "PlateText",
+                    "PaperText",
                     ""
                   ]
                 }
@@ -8048,7 +8668,7 @@
                     "value": "Hide"
                   },
                   "parameters": [
-                    "PlateText"
+                    "PaperText"
                   ]
                 }
               ]
@@ -8062,7 +8682,7 @@
                   },
                   "parameters": [
                     "Player",
-                    "NextMap",
+                    "Paper",
                     "",
                     "",
                     ""
@@ -8072,12 +8692,123 @@
               "actions": [
                 {
                   "type": {
-                    "value": "Scene"
+                    "value": "Show"
                   },
                   "parameters": [
-                    "",
-                    "\"Forest\"",
+                    "PaperText2",
                     ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Paper",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PaperText2"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Paper",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Show"
+                  },
+                  "parameters": [
+                    "PaperText3",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Paper",
+                    "",
+                    "",
+                    "no"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "PaperText3"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Deer",
+                    "DeerNoir",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Deer"
                   ]
                 }
               ]
@@ -8478,6 +9209,143 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Final",
+      "name": "Final",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.3645833333333333,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
         }
       ]
     }
