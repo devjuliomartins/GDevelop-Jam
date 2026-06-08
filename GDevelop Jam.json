@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 270,
+    "build": 271,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -4568,7 +4568,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3768772036751005,
+        "zoomFactor": 0.9538618542089866,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5578,7 +5578,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Paper",
           "persistentUuid": "06651104-2b72-45fb-ae3a-2ef00ea0ea11",
@@ -5615,20 +5615,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 15,
-                            "y": 19
+                            "x": 0,
+                            "y": 18.5
                           },
                           {
-                            "x": 53,
-                            "y": 19
+                            "x": 64,
+                            "y": 18
                           },
                           {
-                            "x": 53,
-                            "y": 48
+                            "x": 64,
+                            "y": 31
                           },
                           {
-                            "x": 15,
-                            "y": 48
+                            "x": 64,
+                            "y": 49.5
+                          },
+                          {
+                            "x": 0,
+                            "y": 50.5
                           }
                         ]
                       ]
@@ -5844,7 +5848,7 @@
           }
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bag",
           "persistentUuid": "d1257cf0-a830-4371-8e18-99cf535ad60f",
@@ -5881,20 +5885,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 17,
-                            "y": 29
+                            "x": 0,
+                            "y": 34.5
                           },
                           {
-                            "x": 47,
-                            "y": 29
+                            "x": 0,
+                            "y": 28
                           },
                           {
-                            "x": 47,
-                            "y": 51
+                            "x": 64,
+                            "y": 26.5
                           },
                           {
-                            "x": 17,
-                            "y": 51
+                            "x": 64,
+                            "y": 53
+                          },
+                          {
+                            "x": 0,
+                            "y": 51.5
                           }
                         ]
                       ]
@@ -5906,9 +5914,10 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Rock",
+          "persistentUuid": "4898f687-d150-48b8-9fc5-77a2b0611dc9",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -5946,11 +5955,15 @@
                             "y": 14
                           },
                           {
-                            "x": 31,
-                            "y": 14
+                            "x": 32,
+                            "y": 13.5
                           },
                           {
-                            "x": 31,
+                            "x": 32,
+                            "y": 22
+                          },
+                          {
+                            "x": 32,
                             "y": 32
                           },
                           {
@@ -5990,6 +6003,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "FadeIn",
+          "persistentUuid": "7379c1a8-dd7a-4f9e-9960-5d0a88a00fa6",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -6695,6 +6709,14 @@
               "actions": [
                 {
                   "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Hide"
                   },
                   "parameters": [
@@ -6846,7 +6868,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.9140341873313962,
+        "zoomFactor": 1.5686691119148244,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -8410,7 +8432,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Paper",
           "persistentUuid": "8f84649a-f363-45d1-84f3-8bbf9bd37b48",
@@ -8447,20 +8469,24 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 15,
-                            "y": 19
+                            "x": 0,
+                            "y": 17.5
                           },
                           {
-                            "x": 53,
-                            "y": 19
+                            "x": 30,
+                            "y": 20
                           },
                           {
-                            "x": 53,
-                            "y": 48
+                            "x": 64,
+                            "y": 14.5
                           },
                           {
-                            "x": 15,
-                            "y": 48
+                            "x": 64,
+                            "y": 48.5
+                          },
+                          {
+                            "x": 0,
+                            "y": 48.5
                           }
                         ]
                       ]
@@ -8590,6 +8616,73 @@
             "align": "center",
             "verticalTextAlignment": "center"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "FadeIn",
+          "persistentUuid": "675f6c4f-b4a0-4b23-8b61-3d886e773edc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -8633,6 +8726,9 @@
           },
           {
             "objectName": "floor_1"
+          },
+          {
+            "objectName": "FadeIn"
           },
           {
             "objectName": "floor_2"
@@ -8968,18 +9064,47 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "CollisionNP"
+                    "value": "Distance"
                   },
                   "parameters": [
                     "Player",
                     "DeerNoir",
-                    "",
-                    "",
-                    "yes"
+                    "150",
+                    ""
                   ]
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "FadeIn",
+                    "Tween",
+                    "ToString(FadeIn.Opacity::Value())",
+                    "255",
+                    "\"easeInOutQuad\"",
+                    "2",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Scene"
@@ -9141,7 +9266,7 @@
                   "parameters": [
                     "Player",
                     "DeerNoir",
-                    "100",
+                    "150",
                     ""
                   ]
                 }
@@ -9237,7 +9362,7 @@
                   "parameters": [
                     "Player",
                     "DeerNoir",
-                    "100",
+                    "150",
                     ""
                   ]
                 }
@@ -9388,6 +9513,10 @@
         {
           "name": "Text",
           "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
