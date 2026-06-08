@@ -2930,7 +2930,7 @@
           "layer": "",
           "name": "BackgroundMenu",
           "persistentUuid": "28c34f67-f1d0-4492-b33a-88741d76ca09",
-          "width": 2208,
+          "width": 1920,
           "x": 0,
           "y": 0,
           "zOrder": 3,
@@ -3014,9 +3014,26 @@
           "name": "ButtonAuthors",
           "persistentUuid": "71e40c21-48b7-428b-b2ca-d00fc53e0798",
           "width": 0,
-          "x": 1760,
+          "x": 1632,
           "y": 960,
           "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 64,
+          "keepRatio": true,
+          "layer": "",
+          "name": "ButtonQuit",
+          "persistentUuid": "6005d8ea-7a5b-4e63-a6f5-48ddb7aa2bec",
+          "width": 448,
+          "x": 298,
+          "y": 778,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3137,7 +3154,7 @@
             "BottomPadding": 4,
             "TopPadding": 0,
             "HoveredFadeOutDuration": 0,
-            "LabelText": "Options"
+            "LabelText": "Historia"
           }
         },
         {
@@ -3832,7 +3849,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.5427920802473275,
+        "zoomFactor": 0.4913877545329353,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -3849,7 +3866,7 @@
           "layer": "",
           "name": "BackgroundAuthors",
           "persistentUuid": "b2eb0415-f81f-4d3d-af2a-041d542bb361",
-          "width": 2272,
+          "width": 1920,
           "x": 0,
           "y": 0,
           "zOrder": 4,
@@ -4001,7 +4018,7 @@
           "name": "ButtonBack",
           "persistentUuid": "9aca77da-9ec1-4f1f-a05d-7bb665d0d516",
           "width": 0,
-          "x": 1760,
+          "x": 1632,
           "y": 960,
           "zOrder": 12,
           "numberProperties": [],
@@ -8786,7 +8803,6 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -8809,6 +8825,35 @@
                   },
                   "parameters": [
                     "Deer"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Player",
+                    "DeerNoir",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Final\"",
+                    ""
                   ]
                 }
               ]
@@ -9223,7 +9268,7 @@
       "title": "",
       "v": 249,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -9233,20 +9278,364 @@
         "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "snap": true,
+        "zoomFactor": 0.4448515998886648,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1088,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundFinal",
+          "persistentUuid": "c59bc8c3-8d51-46b0-b7a1-2c9d2a4d71c8",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "2abc0355-1775-4487-b192-26a250722f5b",
+          "width": 0,
+          "x": 642,
+          "y": 332,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text2",
+          "persistentUuid": "080ca910-8e4c-4dd8-91c4-9be9308e6832",
+          "width": 0,
+          "x": 736,
+          "y": 460,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text3",
+          "persistentUuid": "3e04a8b2-99fc-4940-943f-cfcc615ff3a1",
+          "width": 0,
+          "x": 704,
+          "y": 588,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text3",
+          "persistentUuid": "ad736f40-5c94-4024-b4bd-5510f76b5b74",
+          "width": 0,
+          "x": 704,
+          "y": 716,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FinalText",
+          "persistentUuid": "d57c48fa-1d0d-4edb-b139-cfe3189272de",
+          "width": 0,
+          "x": 900,
+          "y": 163,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackMenu",
+          "persistentUuid": "68b9f82c-88e4-4965-b055-ba11bdfe4e1f",
+          "width": 0,
+          "x": 864,
+          "y": 896,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BackgroundFinal",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/BackgroundAuthors.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1416,
+                            "y": 0
+                          },
+                          {
+                            "x": 1416,
+                            "y": 664
+                          },
+                          {
+                            "x": 0,
+                            "y": 664
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "Text",
+          "persistentUuid": "1d341432-f60a-4915-8989-b0b545106258",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"O verdadeiro predador nunca esteve na floresta.\"",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "Text2",
+          "persistentUuid": "b9009ae9-63ea-4fbb-920a-a7d2b7bb0e31",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"Ele sempre esteve dentro de voce.\"",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "Text3",
+          "persistentUuid": "b344f052-e58a-4a4c-a5d6-56bea169150a",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"Voce nao matou o Cervo das Sombras.\"",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "Text4",
+          "persistentUuid": "81426b79-6fa2-4433-a3a2-34b6e8523947",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "\"Mas decidiu parar de alimenta-lo.\"",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "BackMenu",
+          "persistentUuid": "8ca821e0-7fbb-4250-bd3f-af7fb852a746",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Floating Out Button Dark Blue",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0,
+            "LabelText": "Menu"
+          }
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "FinalText",
+          "persistentUuid": "5c54dae0-3843-41ca-8faa-457e4bcf9b3f",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "FIM",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "BackgroundFinal"
+          },
+          {
+            "objectName": "BackMenu"
+          },
+          {
+            "objectName": "FinalText"
+          },
+          {
+            "objectName": "Text"
+          },
+          {
+            "objectName": "Text2"
+          },
+          {
+            "objectName": "Text3"
+          },
+          {
+            "objectName": "Text4"
+          }
+        ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BackMenu",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -9346,6 +9735,379 @@
         {
           "name": "SmoothCamera",
           "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        }
+      ]
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Historia",
+      "name": "Historia",
+      "r": 247,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 249,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridDepth": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridOffsetZ": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.4448515998886648,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1088,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackgroundFinal",
+          "persistentUuid": "c59bc8c3-8d51-46b0-b7a1-2c9d2a4d71c8",
+          "width": 1920,
+          "x": 0,
+          "y": 0,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 527,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Text",
+          "persistentUuid": "2abc0355-1775-4487-b192-26a250722f5b",
+          "width": 1038,
+          "x": 434,
+          "y": 537,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FinalText",
+          "persistentUuid": "d57c48fa-1d0d-4edb-b139-cfe3189272de",
+          "width": 0,
+          "x": 800,
+          "y": 163,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "BackMenu",
+          "persistentUuid": "68b9f82c-88e4-4965-b055-ba11bdfe4e1f",
+          "width": 0,
+          "x": 864,
+          "y": 896,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BackgroundFinal",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/BackgroundAuthors.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 1416,
+                            "y": 0
+                          },
+                          {
+                            "x": 1416,
+                            "y": 664
+                          },
+                          {
+                            "x": 0,
+                            "y": 664
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "Text",
+          "persistentUuid": "1d341432-f60a-4915-8989-b0b545106258",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "O Cervo das Sombras\n\nHosea, um cacador que vive isolado em uma cabana na floresta, acompanhado apenas de seu fiel cachorro. Ha semanas, um misterioso cervo negro aparece observando sua casa durante a noite.\n\nConvencido de que a criatura e a causa de seus pesadelos, Hosea decide persegui-la ate uma floresta escura evitada por todos da regiao.\n\nDurante a caçada, estranhas vozes e sombras passam a surgir pelo caminho. Quanto mais fundo avanca, mais Hosea percebe que o cervo nao esta fugindo dele, mas o guiando para uma verdade que passou a vida inteira tentando evitar.\n\nUma verdade sobre seus medos, arrependimentos e o verdadeiro predador que o acompanha desde sempre.",
+            "opacity": 255,
+            "scale": 1,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        },
+        {
+          "assetStoreId": "d00645a899e762e085fa6fdf2625701baea9cc10ee903a64ca7d371e5bbb8dca",
+          "name": "BackMenu",
+          "persistentUuid": "8ca821e0-7fbb-4250-bd3f-af7fb852a746",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "Floating Out Button Dark Blue",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 2,
+            "BottomPadding": 4,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0,
+            "LabelText": "Menu"
+          }
+        },
+        {
+          "assetStoreId": "4823f168c941818ff4e0396fc6a3ccec2dc18ade7d350364d57d4f8f096cc9b9",
+          "name": "FinalText",
+          "persistentUuid": "5c54dae0-3843-41ca-8faa-457e4bcf9b3f",
+          "type": "BitmapText::BitmapTextObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "text": "Historia",
+            "opacity": 255,
+            "scale": 3,
+            "fontSize": 20,
+            "tint": "255;255;255",
+            "bitmapFontResourceName": "assets\\8BitOperatorPlus8Regular_Edited.fnt2",
+            "textureAtlasResourceName": "assets\\8BitOperatorPlus8Regular_Edited.png2",
+            "align": "center",
+            "verticalTextAlignment": "center"
+          }
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "BackgroundFinal"
+          },
+          {
+            "objectName": "BackMenu"
+          },
+          {
+            "objectName": "FinalText"
+          },
+          {
+            "objectName": "Text"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "BackMenu",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "SmoothCamera",
+          "type": "SmoothCamera::SmoothCamera"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
         }
       ]
     }
