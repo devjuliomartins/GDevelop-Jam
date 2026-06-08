@@ -86,7 +86,7 @@ O projeto busca transmitir sensações de horror psicológico, inquietação e a
 
 #### [Página da Jam](https://itch.io/jam/into-the-woods-jam)
 
-#### [Página do Jogo no Itch.io](        LINK AQUI!!!               )
+#### [Página do Jogo no Itch.io](https://julio-martins.itch.io/o-cervo-das-sombras)
 
 ---
 
